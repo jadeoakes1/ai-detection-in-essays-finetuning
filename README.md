@@ -106,36 +106,36 @@ This project experiments with a mix of fine-tuned models and prompt-based LLMs:
     ├── preprocessing.py
     ├── train.py
     ├── evaluate.py
-    |--- analyze_inter_annotator_agreement.py
-    |--- analyze_prompts.py
-    |--- batch_convert_ft_datasets.py
-    |--- check_gemini_ft_job.py
-    |--- check_openai_ft_job.py
-    |--- compare_texts.py
-    |--- convert_csv_to_ft_jsonl.py
-    |--- convert_openai_jsonl_to_gemini.py
-    |--- create_gemini_ft_job.py
-    |--- create_openai_ft_job.py
-    |--- download_aide.py
-    |--- download_daigt_v2.py
-    |--- eval_annotations_against_gold.py
-    |--- eval_classifier.py
-    |--- eval_llm.py
-    |--- ft_formatters.py
-    |--- get_ft_results.py
-    |--- inspect_aide.py
-    |--- inspect_daigtv2.py
-    |--- make_annotation_subset.py
-    |--- make_clean_train_subsets.py
-    |--- make_splits_balanced.py
-    |--- make_splits_baseline.py
-    |--- make_splits_source_holdout.py
-    |--- prepare_clean_data.py
-    |--- sample_training_examples.py
-    |--- train_classifier.py
-    |--- train_llama_sft.py
-    |--- upload_gemini_ft_files.py
-    |--- upload_openai_ft_files.py
+    ├── analyze_inter_annotator_agreement.py
+    ├── analyze_prompts.py
+    ├── batch_convert_ft_datasets.py
+    ├── check_gemini_ft_job.py
+    ├── check_openai_ft_job.py
+    ├── compare_texts.py
+    ├── convert_csv_to_ft_jsonl.py
+    ├── convert_openai_jsonl_to_gemini.py
+    ├── create_gemini_ft_job.py
+    ├── create_openai_ft_job.py
+    ├── download_aide.py
+    ├── download_daigt_v2.py
+    ├── eval_annotations_against_gold.py
+    ├── eval_classifier.py
+    ├── eval_llm.py
+    ├── ft_formatters.py
+    ├── get_ft_results.py
+    ├── inspect_aide.py
+    ├── inspect_daigtv2.py
+    ├── make_annotation_subset.py
+    ├── make_clean_train_subsets.py
+    ├── make_splits_balanced.py
+    ├── make_splits_baseline.py
+    ├── make_splits_source_holdout.py
+    ├── prepare_clean_data.py
+    ├── sample_training_examples.py
+    ├── train_classifier.py
+    ├── train_llama_sft.py
+    ├── upload_gemini_ft_files.py
+    ├── upload_openai_ft_files.py
 .gitignore
 eval_classifier.sh
 eval_llm.sh
