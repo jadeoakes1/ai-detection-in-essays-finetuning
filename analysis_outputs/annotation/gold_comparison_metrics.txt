@@ -1,0 +1,62 @@
+===== ANNOTATOR vs GOLD EVALUATION =====
+
+Matching method: normalized text match
+
+Gold duplicate normalized texts: 0
+Annotator 1 duplicate normalized texts: 0
+Annotator 2 duplicate normalized texts: 0
+
+Annotated samples after merging annotator files: 200
+Annotated samples matched to gold:            200
+Annotated samples NOT matched to gold:        0
+
+=== ANNOTATOR 1 vs GOLD ===
+Accuracy: 0.9200
+
+Classification report:
+              precision  recall  f1-score  support
+human          0.881818    0.97  0.923810   100.00
+ai             0.966667    0.87  0.915789   100.00
+accuracy       0.920000    0.92  0.920000     0.92
+macro avg      0.924242    0.92  0.919799   200.00
+weighted avg   0.924242    0.92  0.919799   200.00
+
+Confusion matrix (rows=gold, cols=pred):
+            pred_human  pred_ai
+gold_human          97        3
+gold_ai             13       87
+
+=== ANNOTATOR 2 vs GOLD ===
+Accuracy: 0.9400
+
+Classification report:
+              precision  recall  f1-score  support
+human          0.958333    0.92  0.938776   100.00
+ai             0.923077    0.96  0.941176   100.00
+accuracy       0.940000    0.94  0.940000     0.94
+macro avg      0.940705    0.94  0.939976   200.00
+weighted avg   0.940705    0.94  0.939976   200.00
+
+Confusion matrix (rows=gold, cols=pred):
+            pred_human  pred_ai
+gold_human          92        8
+gold_ai              4       96
+
+=== CONSENSUS vs GOLD ===
+Consensus cases: 180
+Annotator disagreement cases: 20
+
+Accuracy: 0.9778
+
+Classification report:
+              precision    recall  f1-score     support
+human          0.967742  0.989011  0.978261   91.000000
+ai             0.988506  0.966292  0.977273   89.000000
+accuracy       0.977778  0.977778  0.977778    0.977778
+macro avg      0.978124  0.977652  0.977767  180.000000
+weighted avg   0.978008  0.977778  0.977772  180.000000
+
+Confusion matrix (rows=gold, cols=pred):
+            pred_human  pred_ai
+gold_human          90        1
+gold_ai              3       86

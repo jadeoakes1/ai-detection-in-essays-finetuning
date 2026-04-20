@@ -1,0 +1,33 @@
+=== BALANCING SUMMARY ===
+AI total: 17494
+Human fixed (train_essays): 1375
+Human sampled (persuade_corpus): 16119
+Human balanced total: 17494
+
+=== SPLIT SIZES ===
+Train size: 29988 (Human=14994, AI=14994)
+Dev size:   2500 (Human=1250, AI=1250)
+Test size:  2500 (Human=1250, AI=1250)
+
+=== TRAIN HUMAN SOURCES ===
+source
+persuade_corpus    13801
+train_essays        1193
+
+=== TRAIN AI SOURCES ===
+source
+mistral7binstruct_v1                  2255
+llama2_chat                           2255
+mistral7binstruct_v2                  2253
+chat_gpt_moth                         2253
+kingki19_palm                         1218
+llama_70b_v1                          1004
+falcon_180b_v1                         889
+darragh_claude_v7                      832
+darragh_claude_v6                      832
+radek_500                              334
+mistralai/Mistral-7B-Instruct-v0.1     234
+NousResearch/Llama-2-7b-chat-hf        234
+cohere-command                         184
+palm-text-bison1                       183
+radekgpt4                               34

@@ -1,0 +1,36 @@
+===== CLEAN POOL =====
+Rows: 22099
+label
+0    12444
+1     9655
+Name: count, dtype: int64
+
+Max balanced total available: 19310
+Max per class: 9655
+
+===== BUILDING 2000 =====
+Per class: 1000
+Saved: data/splits/llama_subsets\train_clean_balanced_2000.csv
+label
+0    1000
+1    1000
+Name: count, dtype: int64
+Rows: 2000
+
+===== BUILDING 10000 =====
+Per class: 5000
+Saved: data/splits/llama_subsets\train_clean_balanced_10000.csv
+label
+0    5000
+1    5000
+Name: count, dtype: int64
+Rows: 10000
+
+===== BUILDING 19310 =====
+Per class: 9655
+Saved: data/splits/llama_subsets\train_clean_balanced_19310.csv
+label
+0    9655
+1    9655
+Name: count, dtype: int64
+Rows: 19310

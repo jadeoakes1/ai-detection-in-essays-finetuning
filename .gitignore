@@ -1,0 +1,34 @@
+# virtual environments
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# data (raw downloads)
+data/raw/
+
+# API keys
+.env_llm
+
+# model checkpoints & logs
+.ipynb_checkpoints/
+*.pt
+*.pth
+*.bin
+*.pkl
+*.h5
+*.ckpt
+models/
+checkpoints/
+outputs/
+logs/
+results/
+
+# keys
+gemini_key.json
+
+# text_files
+txt_files/
+essays/
+

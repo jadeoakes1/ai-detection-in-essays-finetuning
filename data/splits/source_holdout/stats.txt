@@ -1,0 +1,55 @@
+=== SOURCE HOLDOUT SUMMARY (POOLS) ===
+Raw file: C:\Users\oakes\OneDrive\Desktop\Brandeis new\Spring 2026\Capstone\data\raw\daigt_v2\train_v2_drcat_02.csv
+Out dir:  C:\Users\oakes\OneDrive\Desktop\Brandeis new\Spring 2026\Capstone\data\splits\source_holdout
+Removed mislabeled AI rows from train_essays: 3
+
+Human train pool source: persuade_corpus -> 25996 rows
+Human test  pool source: train_essays -> 1375 rows
+AI train pool (non-heldout) -> 15494 rows
+AI test  pool (heldout only) -> 2000 rows
+Held-out AI sources (test-only):
+ - darragh_claude_v6
+ - darragh_claude_v7
+
+
+=== TEST BALANCING ===
+test_n = min(len(human_test_pool), len(ai_test_pool)) = 1375
+NOTE: Ignoring --ai_test/--human_test; heldout test uses max balanced test_n=1375.
+
+=== SPLIT SIZES ===
+Train size: 28488 (Human=14244, AI=14244)
+Dev size:   2500 (Human=1250, AI=1250)
+Test size:  2750 (Human=1375, AI=1375)
+
+=== LEAKAGE CHECKS ===
+Exact text overlap train↔dev:  0
+Exact text overlap train↔test: 0
+
+=== TRAIN HUMAN SOURCES ===
+source
+persuade_corpus    14244
+
+=== TRAIN AI SOURCES ===
+source
+llama2_chat                           2325
+mistral7binstruct_v2                  2325
+mistral7binstruct_v1                  2325
+chat_gpt_moth                         2324
+kingki19_palm                         1288
+llama_70b_v1                          1076
+falcon_180b_v1                         959
+radek_500                              404
+mistralai/Mistral-7B-Instruct-v0.1     304
+NousResearch/Llama-2-7b-chat-hf        303
+cohere-command                         254
+palm-text-bison1                       253
+radekgpt4                              104
+
+=== TEST HUMAN SOURCES ===
+source
+train_essays    1375
+
+=== TEST AI SOURCES ===
+source
+darragh_claude_v6    688
+darragh_claude_v7    687

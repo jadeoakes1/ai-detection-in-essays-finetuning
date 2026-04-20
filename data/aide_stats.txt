@@ -1,0 +1,95 @@
+---------------------------------------------
+FULL DATASET STATS (AIDE)
+---------------------------------------------
+Index(['id', 'prompt_id', 'text', 'generated'], dtype='str')
+         id  prompt_id                                               text  generated
+0  0059830c          0  Cars. Cars have been around since they became ...          0
+1  005db917          0  Transportation is a large necessity in most co...          0
+2  008f63e3          0  "America's love affair with it's vehicles seem...          0
+3  00940276          0  How often do you ride in a car? Do you drive a...          0
+4  00c39458          0  Cars are a wonderful thing. They are perhaps o...          0
+
+Overall label counts (ground truth):
+generated
+0    1375
+1       3
+Name: count, dtype: int64
+
+Overall prompt_id counts:
+prompt_id
+0    708
+1    670
+Name: count, dtype: int64
+
+Counts by prompt_id and label (Human vs AI):
+generated  Human  AI
+prompt_id           
+0            707   1
+1            668   2
+
+Total human rows: 1375
+Total AI rows: 3
+Total rows: 1378
+
+---------------------------------------------
+TEXT LENGTH STATS
+---------------------------------------------
+Character length summary:
+count   1378.00
+mean    3169.05
+std      920.59
+min     1356.00
+25%     2554.25
+50%     2985.50
+75%     3623.75
+max     8436.00
+Name: text, dtype: float64
+
+Word length summary:
+count   1378.00
+mean     556.12
+std      159.92
+min      235.00
+25%      447.00
+50%      525.00
+75%      639.00
+max     1360.00
+Name: text, dtype: float64
+
+Empty-text rows: 0
+NaN-text rows: 0
+
+---------------------------------------------
+AI-LABELED ROWS (generated == 1)
+---------------------------------------------
+Number of AI-labeled rows: 3
+
+Showing up to first 25 AI rows (full text):
+            id  prompt_id  generated  \
+704   82131f68          1          1   
+740   86fe4f18          1          1   
+1262  eafb8a56          0          1   
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           text  
+704                                                                                                                                                                                                                                                                                                                                                                                                                                                                This essay will analyze, discuss and prove one reason in favor of keeping the Electoral College in the United States for its presidential elections. One of the reasons to keep the electoral college is that it is better for smaller, more rural states to have more influence as opposed to larger metropolitan areas that have large populations. The electors from these states are granted two votes each. Those from larger, more populated areas are granted just one vote each. Smaller states tend to hold significant power because their two votes for president and vice president add up more than the votes of larger states that have many electors. This is because of the split of the electoral votes. Some argue that electors are not bound to vote for the candidate who won the most votes nationally. They do not have to vote for their own state's nominee unless their state has a winner take all system. However, there are states that have adopted laws that force their electors to vote for their state's candidate. It seems that, no matter how, electors are not bound to vote for the candidate who won the most nationally. This is not always the case because of state legislatures who can overrule the electors and vote for the alternative candidate their citizens have selected for them, even if the voter lives in a state without a winner take all system.  
+740                                                                                                                                                                                                                                                                                                                I strongly believe that the Electoral College should remain the way it is or, better yet, that we should elect the president by popular vote. This is due to the fact that the Electoral College does not accurately reflect the will of the people. For example, in the 2016 presidential election, an estimated two million more people voted for Hillary Clinton than for Donald Trump however, Trump won the Electoral College vote, 304 to 232. This means that a candidate can win a majority of the Electoral College voters while losing the popular vote! Furthermore, voting for President should be an individual citizen decision, not a state decision. The Electoral College works by awarding all of a state's electoral votes to the winner of the majority of votes in the state. This means that a candidate can win the majority of votes in a state and still not receive any of that states electoral votes. This goes against the concept of onepersononevote, since a candidate can win the majority of votes in a state and still not win any electoral votes. By eliminating the Electoral College and electing the president by popular vote, the votes of every individual will be counted, and the candidate who wins the most votes nationally will win the election. In conclusion, the Electoral College does not reflect the will of the people and votes in state are not equally weighted. It is time to elect the president by popular vote and to finally give the votes of individual citizens the weight they deserve.  
+1262  Limiting car use causes pollution, increases costs to users regardless of where services or services are offered. Furthermore, over use of the gas results in increased environmental degradation, harming our resources while damaging our environment.\n\nWhen consumers pay a larger amount before gasoline is refined then there are higher costs of running the engine than otherwise. There are fewer places where the gas can be purchased locally causing more problems. Car trips will usually have higher tolls which results in lost wages for the transportation worker, who goes to an unnecessary location for work and then returns home and gets to pay back his transportation back costs. The car accident rate amongst children also has increased. Car pollution can become airborne easily, contaminating children's health. Also children tend to be more careless and more often in accidents simply because of being pushed out of their cars onto the road. All of this can be done to better an already polluted Earth that is becoming increasingly damaged at a much faster rate. Limiting our vehicle use helps our citizens with a reduced budget. It also reduces pollution for local areas. Furthermore, it improves public health and makes city dwellers a wealthier society.\n\nLimiting our own usage by adopting public transportation, walking, biking, and public transport actually would be beneficial for the citizens and planet. I think its very healthy but very little others show similar sentiment mostly environmental activists who want a more environmentally clean place so it often is still looked down upon it still will bring about a very drastic price eventually but there will never be carbon credit trading or an oil recycling scheme unless people want it too. Limiting car use is good for the city.  
+
+AI rows by prompt_id:
+prompt_id
+1    2
+0    1
+Name: count, dtype: int64
+
+---------------------------------------------
+PROMPTS FILE (train_prompts.csv)
+---------------------------------------------
+Index(['prompt_id', 'prompt_name', 'instructions', 'source_text'], dtype='str')
+   prompt_id  ...                                        source_text
+0          0  ...  # In German Suburb, Life Goes On Without Cars ...
+1          1  ...  # What Is the Electoral College? by the Office...
+
+[2 rows x 4 columns]
+
+Number of prompts: 2
+

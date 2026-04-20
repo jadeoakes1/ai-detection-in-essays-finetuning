@@ -1,0 +1,175 @@
+---------------------------------------------
+FULL DATASET STATS
+---------------------------------------------
+Index(['text', 'label', 'prompt_name', 'source', 'RDizzl3_seven'], dtype='str')
+                                                text  label         prompt_name           source  RDizzl3_seven
+0  Phones\n\nModern humans today are always on th...      0  Phones and driving  persuade_corpus          False
+1  This essay will explain if drivers should or s...      0  Phones and driving  persuade_corpus          False
+2  Driving while the use of cellular devices\n\nT...      0  Phones and driving  persuade_corpus          False
+3  Phones & Driving\n\nDrivers should not be able...      0  Phones and driving  persuade_corpus          False
+4  Cell Phone Operation While Driving\n\nThe abil...      0  Phones and driving  persuade_corpus          False
+
+Overall label counts:
+label
+0    27371
+1    17497
+Name: count, dtype: int64
+
+Overall source counts:
+source
+persuade_corpus                       25996
+mistral7binstruct_v2                   2421
+chat_gpt_moth                          2421
+mistral7binstruct_v1                   2421
+llama2_chat                            2421
+kingki19_palm                          1384
+train_essays                           1378
+llama_70b_v1                           1172
+falcon_180b_v1                         1055
+darragh_claude_v7                      1000
+darragh_claude_v6                      1000
+radek_500                               500
+NousResearch/Llama-2-7b-chat-hf         400
+mistralai/Mistral-7B-Instruct-v0.1      400
+cohere-command                          350
+palm-text-bison1                        349
+radekgpt4                               200
+Name: count, dtype: int64
+
+Counts by source and label:
+label                               Human    AI
+source                                         
+NousResearch/Llama-2-7b-chat-hf         0   400
+chat_gpt_moth                           0  2421
+cohere-command                          0   350
+darragh_claude_v6                       0  1000
+darragh_claude_v7                       0  1000
+falcon_180b_v1                          0  1055
+kingki19_palm                           0  1384
+llama2_chat                             0  2421
+llama_70b_v1                            0  1172
+mistral7binstruct_v1                    0  2421
+mistral7binstruct_v2                    0  2421
+mistralai/Mistral-7B-Instruct-v0.1      0   400
+palm-text-bison1                        0   349
+persuade_corpus                     25996     0
+radek_500                               0   500
+radekgpt4                               0   200
+train_essays                         1375     3
+
+Total human rows: 27371
+Total AI rows: 17497
+Total rows: 44868
+
+---------------------------------------------
+TEXT LENGTH STATS (ALL ROWS)
+---------------------------------------------
+Character length summary:
+count   44868.00
+mean     2216.22
+std       969.93
+min        48.00
+25%      1564.75
+50%      2044.00
+75%      2619.00
+max     18322.00
+Name: text, dtype: float64
+
+Word length summary:
+count   44868.00
+mean      383.62
+std       164.93
+min         4.00
+25%       274.00
+50%       352.00
+75%       451.00
+max      1656.00
+Name: text, dtype: float64
+
+Empty-text rows: 0
+NaN-text rows: 0
+
+---------------------------------------------
+TEXT LENGTH STATS BY LABEL
+---------------------------------------------
+      char_len         word_len       
+          mean  median     mean median
+label                                 
+Human  2348.50 2132.00   418.28 383.00
+AI     2009.29 1973.00   329.40 328.00
+
+---------------------------------------------
+PROMPT STATS
+---------------------------------------------
+Number of unique prompts: 15
+
+Top 20 prompt counts:
+prompt_name
+Distance learning                        5554
+Seeking multiple opinions                5176
+Car-free cities                          4717
+Does the electoral college work?         4434
+Facial action coding system              3084
+Mandatory extracurricular activities     3077
+Summer projects                          2701
+Driverless cars                          2250
+Exploring Venus                          2176
+Cell phones at school                    2119
+Grades for extracurricular activities    2116
+Community service                        2092
+"A Cowboy Who Rode the Waves"            1896
+The Face on Mars                         1893
+Phones and driving                       1583
+Name: count, dtype: int64
+
+Prompt counts by label:
+label                                  Human    AI
+prompt_name                                       
+Does the electoral college work?        2714  1720
+Car-free cities                         2666  2051
+Facial action coding system             2167   917
+Distance learning                       2157  3397
+Driverless cars                         1886   364
+Exploring Venus                         1862   314
+Summer projects                         1750   951
+Mandatory extracurricular activities    1670  1407
+Cell phones at school                   1656   463
+Grades for extracurricular activities   1626   490
+The Face on Mars                        1583   310
+Seeking multiple opinions               1552  3624
+Community service                       1542   550
+"A Cowboy Who Rode the Waves"           1372   524
+Phones and driving                      1168   415
+
+Prompts that appear in BOTH Human and AI:
+Count: 15
+label                                  Human    AI
+prompt_name                                       
+Does the electoral college work?        2714  1720
+Car-free cities                         2666  2051
+Facial action coding system             2167   917
+Distance learning                       2157  3397
+Driverless cars                         1886   364
+Exploring Venus                         1862   314
+Summer projects                         1750   951
+Mandatory extracurricular activities    1670  1407
+Cell phones at school                   1656   463
+Grades for extracurricular activities   1626   490
+The Face on Mars                        1583   310
+Seeking multiple opinions               1552  3624
+Community service                       1542   550
+"A Cowboy Who Rode the Waves"           1372   524
+Phones and driving                      1168   415
+
+Prompts that appear ONLY in Human:
+Count: 0
+Empty DataFrame
+Columns: [Human, AI]
+Index: []
+
+Prompts that appear ONLY in AI:
+Count: 0
+Empty DataFrame
+Columns: [Human, AI]
+Index: []
+

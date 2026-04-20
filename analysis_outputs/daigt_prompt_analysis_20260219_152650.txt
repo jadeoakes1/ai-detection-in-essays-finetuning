@@ -1,0 +1,52 @@
+=== DAIGT V2 PROMPT ANALYSIS ===
+Input file: data/raw/daigt_v2/train_v2_drcat_02.csv
+Timestamp: 20260219_152650
+
+=== Basic Counts ===
+Rows: 44868
+Label distribution:
+label
+0    27371
+1    17497
+Name: count, dtype: int64
+
+Unique sources: 17
+Unique prompts: 15
+
+=== Prompt Overlap Across Labels ===
+Human unique prompts: 15
+AI unique prompts: 15
+Overlap prompts: 15
+Jaccard(human, ai): 1.0
+
+Human-only prompts (first 30):
+[]
+
+AI-only prompts (first 30):
+[]
+
+=== Prompt Exclusivity Leakage ===
+Exclusive prompts: 0 / 15
+Fraction of rows from exclusive prompts: 0.0
+
+=== Source x Label Counts ===
+label                                   0     1
+source                                         
+NousResearch/Llama-2-7b-chat-hf         0   400
+chat_gpt_moth                           0  2421
+cohere-command                          0   350
+darragh_claude_v6                       0  1000
+darragh_claude_v7                       0  1000
+falcon_180b_v1                          0  1055
+kingki19_palm                           0  1384
+llama2_chat                             0  2421
+llama_70b_v1                            0  1172
+mistral7binstruct_v1                    0  2421
+mistral7binstruct_v2                    0  2421
+mistralai/Mistral-7B-Instruct-v0.1      0   400
+palm-text-bison1                        0   349
+persuade_corpus                     25996     0
+radek_500                               0   500
+radekgpt4                               0   200
+train_essays                         1375     3
+

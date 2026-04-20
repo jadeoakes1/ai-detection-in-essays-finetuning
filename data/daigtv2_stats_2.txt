@@ -1,0 +1,365 @@
+---------------------------------------------
+FULL DATASET STATS
+---------------------------------------------
+Index(['text', 'label', 'prompt_name', 'source', 'RDizzl3_seven'], dtype='str')
+                                                text  label         prompt_name           source  RDizzl3_seven
+0  Phones\n\nModern humans today are always on th...      0  Phones and driving  persuade_corpus          False
+1  This essay will explain if drivers should or s...      0  Phones and driving  persuade_corpus          False
+2  Driving while the use of cellular devices\n\nT...      0  Phones and driving  persuade_corpus          False
+3  Phones & Driving\n\nDrivers should not be able...      0  Phones and driving  persuade_corpus          False
+4  Cell Phone Operation While Driving\n\nThe abil...      0  Phones and driving  persuade_corpus          False
+
+Overall label counts:
+label
+0    27371
+1    17497
+Name: count, dtype: int64
+
+Overall source counts:
+source
+persuade_corpus                       25996
+mistral7binstruct_v2                   2421
+chat_gpt_moth                          2421
+mistral7binstruct_v1                   2421
+llama2_chat                            2421
+kingki19_palm                          1384
+train_essays                           1378
+llama_70b_v1                           1172
+falcon_180b_v1                         1055
+darragh_claude_v7                      1000
+darragh_claude_v6                      1000
+radek_500                               500
+NousResearch/Llama-2-7b-chat-hf         400
+mistralai/Mistral-7B-Instruct-v0.1      400
+cohere-command                          350
+palm-text-bison1                        349
+radekgpt4                               200
+Name: count, dtype: int64
+
+Counts by source and label:
+label                               Human    AI
+source                                         
+NousResearch/Llama-2-7b-chat-hf         0   400
+chat_gpt_moth                           0  2421
+cohere-command                          0   350
+darragh_claude_v6                       0  1000
+darragh_claude_v7                       0  1000
+falcon_180b_v1                          0  1055
+kingki19_palm                           0  1384
+llama2_chat                             0  2421
+llama_70b_v1                            0  1172
+mistral7binstruct_v1                    0  2421
+mistral7binstruct_v2                    0  2421
+mistralai/Mistral-7B-Instruct-v0.1      0   400
+palm-text-bison1                        0   349
+persuade_corpus                     25996     0
+radek_500                               0   500
+radekgpt4                               0   200
+train_essays                         1375     3
+
+Total human rows: 27371
+Total AI rows: 17497
+Total rows: 44868
+
+---------------------------------------------
+TEXT LENGTH STATS (ALL ROWS)
+---------------------------------------------
+Character length summary:
+count   44868.00
+mean     2216.22
+std       969.93
+min        48.00
+25%      1564.75
+50%      2044.00
+75%      2619.00
+max     18322.00
+Name: text, dtype: float64
+
+Word length summary:
+count   44868.00
+mean      383.62
+std       164.93
+min         4.00
+25%       274.00
+50%       352.00
+75%       451.00
+max      1656.00
+Name: text, dtype: float64
+
+Empty-text rows: 0
+NaN-text rows: 0
+
+---------------------------------------------
+TEXT LENGTH STATS BY LABEL
+---------------------------------------------
+      char_len         word_len       
+          mean  median     mean median
+label                                 
+Human  2348.50 2132.00   418.28 383.00
+AI     2009.29 1973.00   329.40 328.00
+
+---------------------------------------------
+BALANCED SPLIT WORD COUNT STATS
+---------------------------------------------
+===== OVERALL =====
+N = 34988
+mean:   375.38
+median: 348.00
+min:    4
+max:    1656
+std:    156.71
+
+===== SPLIT: train =====
+N = 29988
+mean:   373.68
+median: 346.00
+min:    4
+max:    1656
+std:    157.62
+
+===== SPLIT: dev =====
+N = 2500
+mean:   386.01
+median: 359.00
+min:    42
+max:    1312
+std:    153.40
+
+===== SPLIT: test =====
+N = 2500
+mean:   385.23
+median: 359.00
+min:    9
+max:    1367
+std:    148.14
+
+===== LABEL: Human =====
+N = 17494
+mean:   421.35
+median: 388.00
+min:    143
+max:    1656
+std:    189.76
+
+===== LABEL: AI =====
+N = 17494
+mean:   329.41
+median: 328.00
+min:    4
+max:    818
+std:    94.26
+
+===== BY SOURCE =====
+                                          mean  median  min   max  count
+source                                                                  
+train_essays                        556.768727   525.0  268  1360   1375
+radek_500                           542.270000   546.5  302   785    500
+radekgpt4                           449.275000   449.0  310   553    200
+mistralai/Mistral-7B-Instruct-v0.1  434.825000   452.0    9   525    400
+palm-text-bison1                    428.773639   413.0  170   681    349
+persuade_corpus                     409.802903   373.0  143  1656  16119
+kingki19_palm                       384.080925   382.0  184   746   1384
+mistral7binstruct_v1                371.982652   385.0  130   444   2421
+llama_70b_v1                        365.743174   355.0  164   818   1172
+llama2_chat                         334.920281   339.0    4   428   2421
+cohere-command                      329.877143   308.5  129   713    350
+mistral7binstruct_v2                311.065675   310.0   84   457   2421
+darragh_claude_v7                   310.816000   308.0  160   471   1000
+darragh_claude_v6                   310.145000   307.0  186   507   1000
+falcon_180b_v1                      295.327962   295.0   50   441   1055
+NousResearch/Llama-2-7b-chat-hf     291.382500   292.0  249   324    400
+chat_gpt_moth                       201.935977   200.0   61   428   2421
+
+---------------------------------------------
+PROMPT STATS
+---------------------------------------------
+Number of unique prompts: 15
+
+Prompt counts:
+prompt_name
+Distance learning                        5554
+Seeking multiple opinions                5176
+Car-free cities                          4717
+Does the electoral college work?         4434
+Facial action coding system              3084
+Mandatory extracurricular activities     3077
+Summer projects                          2701
+Driverless cars                          2250
+Exploring Venus                          2176
+Cell phones at school                    2119
+Grades for extracurricular activities    2116
+Community service                        2092
+"A Cowboy Who Rode the Waves"            1896
+The Face on Mars                         1893
+Phones and driving                       1583
+Name: count, dtype: int64
+
+Prompt counts by label:
+label                                  Human    AI
+prompt_name                                       
+Does the electoral college work?        2714  1720
+Car-free cities                         2666  2051
+Facial action coding system             2167   917
+Distance learning                       2157  3397
+Driverless cars                         1886   364
+Exploring Venus                         1862   314
+Summer projects                         1750   951
+Mandatory extracurricular activities    1670  1407
+Cell phones at school                   1656   463
+Grades for extracurricular activities   1626   490
+The Face on Mars                        1583   310
+Seeking multiple opinions               1552  3624
+Community service                       1542   550
+"A Cowboy Who Rode the Waves"           1372   524
+Phones and driving                      1168   415
+
+Prompts that appear in BOTH Human and AI:
+Count: 15
+label                                  Human    AI
+prompt_name                                       
+Does the electoral college work?        2714  1720
+Car-free cities                         2666  2051
+Facial action coding system             2167   917
+Distance learning                       2157  3397
+Driverless cars                         1886   364
+Exploring Venus                         1862   314
+Summer projects                         1750   951
+Mandatory extracurricular activities    1670  1407
+Cell phones at school                   1656   463
+Grades for extracurricular activities   1626   490
+The Face on Mars                        1583   310
+Seeking multiple opinions               1552  3624
+Community service                       1542   550
+"A Cowboy Who Rode the Waves"           1372   524
+Phones and driving                      1168   415
+
+Prompts that appear ONLY in Human:
+Count: 0
+Empty DataFrame
+Columns: [Human, AI]
+Index: []
+
+Prompts that appear ONLY in AI:
+Count: 0
+Empty DataFrame
+Columns: [Human, AI]
+Index: []
+
+--- DEV.CSV STATS ---
+Total rows: 2500
+
+Label counts:
+label
+0    1250
+1    1250
+Name: count, dtype: int64
+
+Counts by source and label:
+label                               Human  AI
+source                                       
+NousResearch/Llama-2-7b-chat-hf         0  83
+chat_gpt_moth                           0  84
+cohere-command                          0  83
+darragh_claude_v6                       0  84
+darragh_claude_v7                       0  84
+falcon_180b_v1                          0  83
+kingki19_palm                           0  83
+llama2_chat                             0  83
+llama_70b_v1                            0  84
+mistral7binstruct_v1                    0  83
+mistral7binstruct_v2                    0  84
+mistralai/Mistral-7B-Instruct-v0.1      0  83
+palm-text-bison1                        0  83
+persuade_corpus                      1163   0
+radek_500                               0  83
+radekgpt4                               0  83
+train_essays                           87   0
+
+--------------------------------------------------
+
+--- TEST.CSV STATS ---
+Total rows: 2500
+
+Label counts:
+label
+0    1250
+1    1250
+Name: count, dtype: int64
+
+Counts by source and label:
+label                               Human  AI
+source                                       
+NousResearch/Llama-2-7b-chat-hf         0  83
+chat_gpt_moth                           0  84
+cohere-command                          0  83
+darragh_claude_v6                       0  84
+darragh_claude_v7                       0  84
+falcon_180b_v1                          0  83
+kingki19_palm                           0  83
+llama2_chat                             0  83
+llama_70b_v1                            0  84
+mistral7binstruct_v1                    0  83
+mistral7binstruct_v2                    0  84
+mistralai/Mistral-7B-Instruct-v0.1      0  83
+palm-text-bison1                        0  83
+persuade_corpus                      1155   0
+radek_500                               0  83
+radekgpt4                               0  83
+train_essays                           95   0
+
+--------------------------------------------------
+
+--- TRAIN.CSV STATS ---
+Total rows: 29988
+
+Label counts:
+label
+1    14994
+0    14994
+Name: count, dtype: int64
+
+Counts by source and label:
+label                               Human    AI
+source                                         
+NousResearch/Llama-2-7b-chat-hf         0   234
+chat_gpt_moth                           0  2253
+cohere-command                          0   184
+darragh_claude_v6                       0   832
+darragh_claude_v7                       0   832
+falcon_180b_v1                          0   889
+kingki19_palm                           0  1218
+llama2_chat                             0  2255
+llama_70b_v1                            0  1004
+mistral7binstruct_v1                    0  2255
+mistral7binstruct_v2                    0  2253
+mistralai/Mistral-7B-Instruct-v0.1      0   234
+palm-text-bison1                        0   183
+persuade_corpus                     13801     0
+radek_500                               0   334
+radekgpt4                               0    34
+train_essays                         1193     0
+
+--------------------------------------------------
+
+---------------------------------------------
+INSPECT train_essays SOURCE
+---------------------------------------------
+                                                  text  label                       prompt_name        source  RDizzl3_seven
+45   Many places such as Vauban, Germany have given...      0                   Car-free cities  train_essays           True
+60   Dear state senator, Election day is held every...      0  Does the electoral college work?  train_essays           True
+77   The electoral college is one of the most heavi...      0  Does the electoral college work?  train_essays           True
+89   There are many advantages to limiting car usag...      0                   Car-free cities  train_essays           True
+124  Dear senator, I strongly believe that we shoul...      0  Does the electoral college work?  train_essays           True
+Number of train_essays rows: 87
+
+---------------------------------------------
+TRAIN_ESSAYS AI-LABELED ROWS
+---------------------------------------------
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            text  ...  RDizzl3_seven
+42810                                                                                                                                                                                                                                                                                                                                                                                                                                                               This essay will analyze, discuss and prove one reason in favor of keeping the Electoral College in the United States for its presidential elections. One of the reasons to keep the electoral college is that it is better for smaller, more rural states to have more influence as opposed to larger metropolitan areas that have large populations. The electors from these states are granted two votes each. Those from larger, more populated areas are granted just one vote each. Smaller states tend to hold significant power because their two votes for president and vice president add up more than the votes of larger states that have many electors. This is because of the split of the electoral votes. Some argue that electors are not bound to vote for the candidate who won the most votes nationally. They do not have to vote for their own state's nominee unless their state has a winner take all system. However, there are states that have adopted laws that force their electors to vote for their state's candidate. It seems that, no matter how, electors are not bound to vote for the candidate who won the most nationally. This is not always the case because of state legislatures who can overrule the electors and vote for the alternative candidate their citizens have selected for them, even if the voter lives in a state without a winner take all system.  ...           True
+42846                                                                                                                                                                                                                                                                                                               I strongly believe that the Electoral College should remain the way it is or, better yet, that we should elect the president by popular vote. This is due to the fact that the Electoral College does not accurately reflect the will of the people. For example, in the 2016 presidential election, an estimated two million more people voted for Hillary Clinton than for Donald Trump however, Trump won the Electoral College vote, 304 to 232. This means that a candidate can win a majority of the Electoral College voters while losing the popular vote! Furthermore, voting for President should be an individual citizen decision, not a state decision. The Electoral College works by awarding all of a state's electoral votes to the winner of the majority of votes in the state. This means that a candidate can win the majority of votes in a state and still not receive any of that states electoral votes. This goes against the concept of onepersononevote, since a candidate can win the majority of votes in a state and still not win any electoral votes. By eliminating the Electoral College and electing the president by popular vote, the votes of every individual will be counted, and the candidate who wins the most votes nationally will win the election. In conclusion, the Electoral College does not reflect the will of the people and votes in state are not equally weighted. It is time to elect the president by popular vote and to finally give the votes of individual citizens the weight they deserve.  ...           True
+43368  Limiting car use causes pollution, increases costs to users regardless of where services or services are offered. Furthermore, over use of the gas results in increased environmental degradation, harming our resources while damaging our environment.\n\nWhen consumers pay a larger amount before gasoline is refined then there are higher costs of running the engine than otherwise. There are fewer places where the gas can be purchased locally causing more problems. Car trips will usually have higher tolls which results in lost wages for the transportation worker, who goes to an unnecessary location for work and then returns home and gets to pay back his transportation back costs. The car accident rate amongst children also has increased. Car pollution can become airborne easily, contaminating children's health. Also children tend to be more careless and more often in accidents simply because of being pushed out of their cars onto the road. All of this can be done to better an already polluted Earth that is becoming increasingly damaged at a much faster rate. Limiting our vehicle use helps our citizens with a reduced budget. It also reduces pollution for local areas. Furthermore, it improves public health and makes city dwellers a wealthier society.\n\nLimiting our own usage by adopting public transportation, walking, biking, and public transport actually would be beneficial for the citizens and planet. I think its very healthy but very little others show similar sentiment mostly environmental activists who want a more environmentally clean place so it often is still looked down upon it still will bring about a very drastic price eventually but there will never be carbon credit trading or an oil recycling scheme unless people want it too. Limiting car use is good for the city.  ...           True
+
+[3 rows x 5 columns]
+
+Number of AI-labeled train_essays rows: 3

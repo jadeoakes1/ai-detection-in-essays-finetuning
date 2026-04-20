@@ -1,0 +1,332 @@
+=== DAIGT V2 PROMPT ANALYSIS ===
+Input file: data/raw/daigt_v2/train_v2_drcat_02.csv
+Timestamp: 20260219_160718
+
+=== Basic Counts ===
+Rows: 44868
+Label distribution:
+label
+0    27371
+1    17497
+Name: count, dtype: int64
+
+Unique sources: 17
+Unique prompts: 15
+
+=== Prompt Overlap Across Labels (GLOBAL) ===
+Human unique prompts: 15
+AI unique prompts: 15
+Overlap prompts: 15
+Jaccard(human, ai): 1.0
+
+Human-only prompts (first 30):
+[]
+
+AI-only prompts (first 30):
+[]
+
+=== Prompt Exclusivity Leakage (GLOBAL) ===
+Exclusive prompts: 0 / 15
+Fraction of rows from exclusive prompts: 0.0
+
+=== Source x Label Counts ===
+label                                   0     1
+source                                         
+NousResearch/Llama-2-7b-chat-hf         0   400
+chat_gpt_moth                           0  2421
+cohere-command                          0   350
+darragh_claude_v6                       0  1000
+darragh_claude_v7                       0  1000
+falcon_180b_v1                          0  1055
+kingki19_palm                           0  1384
+llama2_chat                             0  2421
+llama_70b_v1                            0  1172
+mistral7binstruct_v1                    0  2421
+mistral7binstruct_v2                    0  2421
+mistralai/Mistral-7B-Instruct-v0.1      0   400
+palm-text-bison1                        0   349
+persuade_corpus                     25996     0
+radek_500                               0   500
+radekgpt4                               0   200
+train_essays                         1375     3
+
+=== Source Purity / Label-locked Sources ===
+Label-locked sources (label nunique == 1): 16 / 17
+Label-locked source list:
+['NousResearch/Llama-2-7b-chat-hf', 'chat_gpt_moth', 'cohere-command', 'darragh_claude_v6', 'darragh_claude_v7', 'falcon_180b_v1', 'kingki19_palm', 'llama2_chat', 'llama_70b_v1', 'mistral7binstruct_v1', 'mistral7binstruct_v2', 'mistralai/Mistral-7B-Instruct-v0.1', 'palm-text-bison1', 'persuade_corpus', 'radek_500', 'radekgpt4']
+
+Fraction of rows from label-locked sources: 0.9693
+
+=== Source -> Prompt Breakdown ===
+--- Source: NousResearch/Llama-2-7b-chat-hf ---
+Rows: 400
+Label counts: {1: 400}  (0=Human, 1=AI)
+Unique prompts: 2
+Human prompts: 0 | AI prompts: 2
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  Does the electoral college work?: 200
+  Car-free cities: 200
+
+--- Source: chat_gpt_moth ---
+Rows: 2421
+Label counts: {1: 2421}  (0=Human, 1=AI)
+Unique prompts: 14
+Human prompts: 0 | AI prompts: 14
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  Seeking multiple opinions: 853
+  Distance learning: 830
+  Mandatory extracurricular activities: 266
+  Summer projects: 169
+  Facial action coding system: 82
+  Community service: 64
+  Cell phones at school: 49
+  "A Cowboy Who Rode the Waves": 47
+  Grades for extracurricular activities: 23
+  Car-free cities: 12
+
+--- Source: cohere-command ---
+Rows: 350
+Label counts: {1: 350}  (0=Human, 1=AI)
+Unique prompts: 8
+Human prompts: 0 | AI prompts: 8
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  "A Cowboy Who Rode the Waves": 50
+  Exploring Venus: 50
+  Facial action coding system: 50
+  The Face on Mars: 50
+  Driverless cars: 50
+  Does the electoral college work?: 50
+  Car-free cities: 49
+  Seeking multiple opinions: 1
+
+--- Source: darragh_claude_v6 ---
+Rows: 1000
+Label counts: {1: 1000}  (0=Human, 1=AI)
+Unique prompts: 15
+Human prompts: 0 | AI prompts: 15
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  Driverless cars: 86
+  Facial action coding system: 78
+  Exploring Venus: 74
+  Seeking multiple opinions: 73
+  The Face on Mars: 71
+  Phones and driving: 70
+  Mandatory extracurricular activities: 69
+  "A Cowboy Who Rode the Waves": 68
+  Cell phones at school: 68
+  Community service: 65
+
+--- Source: darragh_claude_v7 ---
+Rows: 1000
+Label counts: {1: 1000}  (0=Human, 1=AI)
+Unique prompts: 15
+Human prompts: 0 | AI prompts: 15
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  Mandatory extracurricular activities: 78
+  Seeking multiple opinions: 77
+  Does the electoral college work?: 74
+  "A Cowboy Who Rode the Waves": 73
+  The Face on Mars: 70
+  Facial action coding system: 70
+  Driverless cars: 69
+  Phones and driving: 69
+  Distance learning: 66
+  Cell phones at school: 64
+
+--- Source: falcon_180b_v1 ---
+Rows: 1055
+Label counts: {1: 1055}  (0=Human, 1=AI)
+Unique prompts: 15
+Human prompts: 0 | AI prompts: 15
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  Distance learning: 219
+  Car-free cities: 156
+  Phones and driving: 108
+  Facial action coding system: 101
+  Grades for extracurricular activities: 75
+  Seeking multiple opinions: 66
+  Summer projects: 62
+  "A Cowboy Who Rode the Waves": 46
+  Cell phones at school: 41
+  Mandatory extracurricular activities: 37
+
+--- Source: kingki19_palm ---
+Rows: 1384
+Label counts: {1: 1384}  (0=Human, 1=AI)
+Unique prompts: 2
+Human prompts: 0 | AI prompts: 2
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  Car-free cities: 712
+  Does the electoral college work?: 672
+
+--- Source: llama2_chat ---
+Rows: 2421
+Label counts: {1: 2421}  (0=Human, 1=AI)
+Unique prompts: 15
+Human prompts: 0 | AI prompts: 15
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  Seeking multiple opinions: 789
+  Distance learning: 516
+  Mandatory extracurricular activities: 346
+  Summer projects: 202
+  Facial action coding system: 182
+  Community service: 109
+  Grades for extracurricular activities: 87
+  Cell phones at school: 81
+  "A Cowboy Who Rode the Waves": 66
+  Phones and driving: 14
+
+--- Source: llama_70b_v1 ---
+Rows: 1172
+Label counts: {1: 1172}  (0=Human, 1=AI)
+Unique prompts: 15
+Human prompts: 0 | AI prompts: 15
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  Distance learning: 216
+  Car-free cities: 188
+  Phones and driving: 122
+  Facial action coding system: 111
+  Grades for extracurricular activities: 95
+  Seeking multiple opinions: 56
+  "A Cowboy Who Rode the Waves": 54
+  Summer projects: 52
+  Mandatory extracurricular activities: 50
+  Driverless cars: 48
+
+--- Source: mistral7binstruct_v1 ---
+Rows: 2421
+Label counts: {1: 2421}  (0=Human, 1=AI)
+Unique prompts: 15
+Human prompts: 0 | AI prompts: 15
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  Seeking multiple opinions: 834
+  Distance learning: 774
+  Mandatory extracurricular activities: 255
+  Summer projects: 167
+  Facial action coding system: 125
+  Community service: 84
+  Cell phones at school: 58
+  Grades for extracurricular activities: 45
+  "A Cowboy Who Rode the Waves": 34
+  Phones and driving: 16
+
+--- Source: mistral7binstruct_v2 ---
+Rows: 2421
+Label counts: {1: 2421}  (0=Human, 1=AI)
+Unique prompts: 15
+Human prompts: 0 | AI prompts: 15
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  Seeking multiple opinions: 875
+  Distance learning: 720
+  Mandatory extracurricular activities: 305
+  Summer projects: 182
+  Community service: 105
+  Facial action coding system: 68
+  Cell phones at school: 60
+  Grades for extracurricular activities: 39
+  "A Cowboy Who Rode the Waves": 36
+  Car-free cities: 15
+
+--- Source: mistralai/Mistral-7B-Instruct-v0.1 ---
+Rows: 400
+Label counts: {1: 400}  (0=Human, 1=AI)
+Unique prompts: 3
+Human prompts: 0 | AI prompts: 3
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  Does the electoral college work?: 200
+  Car-free cities: 199
+  Distance learning: 1
+
+--- Source: palm-text-bison1 ---
+Rows: 349
+Label counts: {1: 349}  (0=Human, 1=AI)
+Unique prompts: 8
+Human prompts: 0 | AI prompts: 8
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  "A Cowboy Who Rode the Waves": 50
+  Exploring Venus: 50
+  Facial action coding system: 50
+  The Face on Mars: 50
+  Driverless cars: 50
+  Car-free cities: 49
+  Does the electoral college work?: 49
+  Mandatory extracurricular activities: 1
+
+--- Source: persuade_corpus ---
+Rows: 25996
+Label counts: {0: 25996}  (0=Human, 1=AI)
+Unique prompts: 15
+Human prompts: 15 | AI prompts: 0
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  Facial action coding system: 2167
+  Distance learning: 2157
+  Does the electoral college work?: 2046
+  Car-free cities: 1959
+  Driverless cars: 1886
+  Exploring Venus: 1862
+  Summer projects: 1750
+  Mandatory extracurricular activities: 1670
+  Cell phones at school: 1656
+  Grades for extracurricular activities: 1626
+
+--- Source: radek_500 ---
+Rows: 500
+Label counts: {1: 500}  (0=Human, 1=AI)
+Unique prompts: 2
+Human prompts: 0 | AI prompts: 2
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  Car-free cities: 250
+  Does the electoral college work?: 250
+
+--- Source: radekgpt4 ---
+Rows: 200
+Label counts: {1: 200}  (0=Human, 1=AI)
+Unique prompts: 2
+Human prompts: 0 | AI prompts: 2
+Overlap prompts within source: 0
+Jaccard(human, ai) within source: 0.0
+Top prompts (count):
+  Car-free cities: 100
+  Does the electoral college work?: 100
+
+--- Source: train_essays ---
+Rows: 1378
+Label counts: {0: 1375, 1: 3}  (0=Human, 1=AI)
+Unique prompts: 2
+Human prompts: 2 | AI prompts: 2
+Overlap prompts within source: 2
+Jaccard(human, ai) within source: 1.0
+Top prompts (count):
+  Car-free cities: 708
+  Does the electoral college work?: 670
+
