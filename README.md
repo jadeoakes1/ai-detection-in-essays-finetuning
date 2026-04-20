@@ -10,7 +10,7 @@ The goal of this project is to evaluate and compare multiple models, including f
 
 ## Objectives
 
-* Develop a reliable system for detecting AI-generated text in essays
+* Research and develop a reliable system for detecting AI-generated text in essays
 * Fine-tune transformer models for binary classification (human vs. AI-written)
 * Compare performance across different model architectures
 * Evaluate both open-source and API-based models
@@ -32,16 +32,19 @@ GEMINI_API_KEY=...
 
 This project experiments with a mix of fine-tuned models and prompt-based LLMs:
 
+### Zeroshot Models
+
+* LLaMA 3.1 8B Instruct
+* OpenAI GPT 5.4 mini & GPT 4.1 mini
+* Anthropic Claude Sonnet 4-6
+* Google Gemini 2.5 Flash
+
 ### Fine-Tuned Models
 
 * RoBERTa
 * DeBERTa
-
-### API-Based / Prompted Models
-
-* LLaMA 3.1 8B Instruct
-* OpenAI GPT 5.4 mini and 4.1 mini
-* Anthropic Claude Sonnet 4-6
+* Llama 3.1 8B Instruct
+* OpenAI GPT 4.1 mini
 * Google Gemini 2.5 Flash
 
 ---
@@ -50,8 +53,10 @@ This project experiments with a mix of fine-tuned models and prompt-based LLMs:
 
 1. **Dataset Collection**
 
+   * [DAIGT v2 Dataset](https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset)
    * Essays sourced from human-written datasets and AI-generated outputs
    * Balanced dataset for fair classification
+   * Mini dataset of new human-written and AI generated essays specifically for this project
 
 2. **Preprocessing**
 
@@ -60,7 +65,7 @@ This project experiments with a mix of fine-tuned models and prompt-based LLMs:
 
 3. **Model Training**
 
-   * Fine-tuning transformer models (RoBERTa, DeBERTa) on labeled data
+   * Fine-tuning language models on labeled data
    * Binary classification: Human vs AI-generated
 
 4. **Evaluation**
@@ -72,7 +77,7 @@ This project experiments with a mix of fine-tuned models and prompt-based LLMs:
 5. **LLM Evaluation**
 
    * Prompting large models (GPT, Claude, Gemini, LLaMA)
-   * Comparing zero-shot / few-shot detection performance
+   * Comparing zero-shot with fine-tuned results
 
 ---
 
@@ -82,7 +87,7 @@ This project experiments with a mix of fine-tuned models and prompt-based LLMs:
 * PyTorch / Hugging Face Transformers
 * Scikit-learn
 * APIs from OpenAI, Anthropic, and Google
-* Jupyter Notebooks / VS Code
+* VS Code
 
 ---
 
@@ -90,14 +95,54 @@ This project experiments with a mix of fine-tuned models and prompt-based LLMs:
 
 ```
 /data
-/models
-/notebooks
-/src
+    ├── clean
+    ├── example_pool
+    ├── finetune
+    ├── splits
+    ├── daigtv2_stats_2.txt
+    ├── daigtve2_stats.txt
+/results
+/scripts
     ├── preprocessing.py
     ├── train.py
     ├── evaluate.py
-/results
+    |--- analyze_inter_annotator_agreement.py
+    |--- analyze_prompts.py
+    |--- batch_convert_ft_datasets.py
+    |--- check_gemini_ft_job.py
+    |--- check_openai_ft_job.py
+    |--- compare_texts.py
+    |--- convert_csv_to_ft_jsonl.py
+    |--- convert_openai_jsonl_to_gemini.py
+    |--- create_gemini_ft_job.py
+    |--- create_openai_ft_job.py
+    |--- download_aide.py
+    |--- download_daigt_v2.py
+    |--- eval_annotations_against_gold.py
+    |--- eval_classifier.py
+    |--- eval_llm.py
+    |--- ft_formatters.py
+    |--- get_ft_results.py
+    |--- inspect_aide.py
+    |--- inspect_daigtv2.py
+    |--- make_annotation_subset.py
+    |--- make_clean_train_subsets.py
+    |--- make_splits_balanced.py
+    |--- make_splits_baseline.py
+    |--- make_splits_source_holdout.py
+    |--- prepare_clean_data.py
+    |--- sample_training_examples.py
+    |--- train_classifier.py
+    |--- train_llama_sft.py
+    |--- upload_gemini_ft_files.py
+    |--- upload_openai_ft_files.py
+.gitignore
+eval_classifier.sh
+eval_llm.sh
+get_ft_results.sh
 README.md
+train_classifier.sh
+train_llama_sft.sh
 ```
 
 ---
