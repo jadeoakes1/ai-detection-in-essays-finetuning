@@ -1,0 +1,31 @@
+{
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-6",
+  "prompt_id": "prompt_4",
+  "candidate_index": 1,
+  "timestamp_utc": "2026-04-21T00:56:27Z",
+  "prompt_text": "Write a short essay (300-400 words) responding to the prompt below.\nTake the position provided and support it with clear reasoning and examples.\nTraveling spontaneously is better than planning a trip in detail. Argue for why this is preferable.",
+  "system_prompt": "You are writing a college student argumentative essay.\n\nFollow these rules exactly:\n- Write a natural-sounding student essay in English.\n- Length: 300 to 400 words.\n- Respond directly to the assigned prompt and defend the stated position.\n- Use clear reasoning and concrete examples.\n- Use normal paragraph form.\n- Do not use bullet points, headings, or numbered lists.\n- Do not mention being an AI, language model, assistant, or chatbot.\n- Do not include disclaimers, notes, or any text outside the essay itself.\n",
+  "raw_text": "Traveling spontaneously is one of the most rewarding ways to explore the world, and while detailed planning might seem safer, it often strips away the very qualities that make travel exciting. Spontaneous travel allows for genuine discovery, personal growth, and memorable experiences that no itinerary could ever schedule.\n\nOne of the strongest arguments for spontaneous travel is the freedom it creates. When you are not locked into hotel reservations, timed tours, or rigid daily schedules, you can follow your curiosity wherever it leads. Imagine arriving in a new city and stumbling upon a local street festival that would have been missed entirely if you had been rushing to your pre-booked museum tour. These unplanned moments often become the highlight of a trip precisely because they feel authentic and unforced. A traveler who leaves room for the unexpected is far more likely to have a story worth telling.\n\nSpontaneous travel also encourages personal adaptability and confidence. When you do not have every detail mapped out, you are forced to problem-solve in real time, talk to strangers for directions or recommendations, and make decisions independently. These challenges build resilience and self-reliance in ways that following a step-by-step itinerary simply cannot. Many experienced travelers describe their most transformative trips as the ones where something went \"wrong\" and they had to navigate the situation creatively. Those moments of improvisation often lead to the richest cultural exchanges and the deepest connections with locals.\n\nCritics of spontaneous travel argue that planning prevents wasted time and saves money through advance bookings. This is a fair point, but it overlooks the value of flexibility. Yes, last-minute accommodations might occasionally cost more, but the experiences gained by staying in an unexpected town or extending your time in a city you fell in love with far outweigh the financial difference. Additionally, over-planning can create anxiety when things deviate from the schedule, which they almost always do.\n\nUltimately, travel is about experiencing life beyond your usual boundaries. Detailed plans can actually limit that experience by prioritizing efficiency over exploration. Spontaneous travel trusts the journey itself, and more often than not, that trust is rewarded with something truly extraordinary.",
+  "cleaned_text": "Traveling spontaneously is one of the most rewarding ways to explore the world, and while detailed planning might seem safer, it often strips away the very qualities that make travel exciting. Spontaneous travel allows for genuine discovery, personal growth, and memorable experiences that no itinerary could ever schedule.\n\nOne of the strongest arguments for spontaneous travel is the freedom it creates. When you are not locked into hotel reservations, timed tours, or rigid daily schedules, you can follow your curiosity wherever it leads. Imagine arriving in a new city and stumbling upon a local street festival that would have been missed entirely if you had been rushing to your pre-booked museum tour. These unplanned moments often become the highlight of a trip precisely because they feel authentic and unforced. A traveler who leaves room for the unexpected is far more likely to have a story worth telling.\n\nSpontaneous travel also encourages personal adaptability and confidence. When you do not have every detail mapped out, you are forced to problem-solve in real time, talk to strangers for directions or recommendations, and make decisions independently. These challenges build resilience and self-reliance in ways that following a step-by-step itinerary simply cannot. Many experienced travelers describe their most transformative trips as the ones where something went \"wrong\" and they had to navigate the situation creatively. Those moments of improvisation often lead to the richest cultural exchanges and the deepest connections with locals.\n\nCritics of spontaneous travel argue that planning prevents wasted time and saves money through advance bookings. This is a fair point, but it overlooks the value of flexibility. Yes, last-minute accommodations might occasionally cost more, but the experiences gained by staying in an unexpected town or extending your time in a city you fell in love with far outweigh the financial difference. Additionally, over-planning can create anxiety when things deviate from the schedule, which they almost always do.\n\nUltimately, travel is about experiencing life beyond your usual boundaries. Detailed plans can actually limit that experience by prioritizing efficiency over exploration. Spontaneous travel trusts the journey itself, and more often than not, that trust is rewarded with something truly extraordinary.",
+  "word_count": 357,
+  "api_parameters": {
+    "max_tokens": 900
+  },
+  "response_metadata": {
+    "id": "msg_01QSQCAsiQ6qPQQ3WqVgNT34",
+    "usage": {
+      "input_tokens": 202,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 467,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    },
+    "stop_reason": "end_turn"
+  }
+}

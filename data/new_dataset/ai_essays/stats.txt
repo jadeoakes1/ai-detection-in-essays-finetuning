@@ -1,0 +1,61 @@
+=== DATASET STATISTICS ===
+
+Total essays: 36
+
+
+--- Essays by provider ---
+anthropic: 12
+gemini: 12
+openai: 12
+
+--- Essays by prompt ---
+prompt_1: 6
+prompt_2: 6
+prompt_3: 6
+prompt_4: 6
+prompt_5: 6
+prompt_6: 6
+
+--- Word count summary ---
+Min: 341
+Max: 393
+Mean: 365.86
+Outside 300-400: 0
+
+--- Per-essay word counts ---
+anthropic  | prompt_1 | 368 words | prompt_1/candidate_01.txt
+anthropic  | prompt_1 | 368 words | prompt_1/candidate_02.txt
+anthropic  | prompt_2 | 358 words | prompt_2/candidate_01.txt
+anthropic  | prompt_2 | 370 words | prompt_2/candidate_02.txt
+anthropic  | prompt_3 | 363 words | prompt_3/candidate_01.txt
+anthropic  | prompt_3 | 379 words | prompt_3/candidate_02.txt
+anthropic  | prompt_4 | 357 words | prompt_4/candidate_01.txt
+anthropic  | prompt_4 | 355 words | prompt_4/candidate_02.txt
+anthropic  | prompt_5 | 371 words | prompt_5/candidate_01.txt
+anthropic  | prompt_5 | 371 words | prompt_5/candidate_02.txt
+anthropic  | prompt_6 | 356 words | prompt_6/candidate_01.txt
+anthropic  | prompt_6 | 371 words | prompt_6/candidate_02.txt
+gemini     | prompt_1 | 348 words | prompt_1/candidate_01.txt
+gemini     | prompt_1 | 352 words | prompt_1/candidate_02.txt
+gemini     | prompt_2 | 354 words | prompt_2/candidate_01.txt
+gemini     | prompt_2 | 346 words | prompt_2/candidate_02.txt
+gemini     | prompt_3 | 369 words | prompt_3/candidate_01.txt
+gemini     | prompt_3 | 353 words | prompt_3/candidate_02.txt
+gemini     | prompt_4 | 359 words | prompt_4/candidate_01.txt
+gemini     | prompt_4 | 350 words | prompt_4/candidate_02.txt
+gemini     | prompt_5 | 350 words | prompt_5/candidate_01.txt
+gemini     | prompt_5 | 367 words | prompt_5/candidate_02.txt
+gemini     | prompt_6 | 357 words | prompt_6/candidate_01.txt
+gemini     | prompt_6 | 373 words | prompt_6/candidate_02.txt
+openai     | prompt_1 | 378 words | prompt_1/candidate_01.txt
+openai     | prompt_1 | 379 words | prompt_1/candidate_02.txt
+openai     | prompt_2 | 374 words | prompt_2/candidate_01.txt
+openai     | prompt_2 | 365 words | prompt_2/candidate_02.txt
+openai     | prompt_3 | 387 words | prompt_3/candidate_01.txt
+openai     | prompt_3 | 377 words | prompt_3/candidate_02.txt
+openai     | prompt_4 | 390 words | prompt_4/candidate_01.txt
+openai     | prompt_4 | 373 words | prompt_4/candidate_02.txt
+openai     | prompt_5 | 341 words | prompt_5/candidate_01.txt
+openai     | prompt_5 | 373 words | prompt_5/candidate_02.txt
+openai     | prompt_6 | 376 words | prompt_6/candidate_01.txt
+openai     | prompt_6 | 393 words | prompt_6/candidate_02.txt

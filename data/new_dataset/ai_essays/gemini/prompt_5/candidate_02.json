@@ -1,0 +1,30 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "prompt_id": "prompt_5",
+  "candidate_index": 2,
+  "timestamp_utc": "2026-04-21T00:58:16Z",
+  "prompt_text": "Write a short essay (300-400 words) responding to the prompt below.\nTake the position provided and support it with clear reasoning and examples.\nBeing a morning person is better than being a night owl. Argue for why this is preferable.",
+  "system_prompt": "You are writing a college student argumentative essay.\n\nFollow these rules exactly:\n- Write a natural-sounding student essay in English.\n- Length: 300 to 400 words.\n- Respond directly to the assigned prompt and defend the stated position.\n- Use clear reasoning and concrete examples.\n- Use normal paragraph form.\n- Do not use bullet points, headings, or numbered lists.\n- Do not mention being an AI, language model, assistant, or chatbot.\n- Do not include disclaimers, notes, or any text outside the essay itself.\n",
+  "raw_text": "Society often romanticizes the \"night owl\" lifestyle as the hallmark of the creative or the driven, but in reality, being a morning person provides a significant advantage in terms of health, productivity, and social alignment. While staying up late might feel like reclaiming personal time, waking up early allows an individual to operate in harmony with the natural world and the structures of modern life.\n\nThe primary benefit of being a morning person is the boost in cognitive performance and productivity. Studies consistently show that proactive behavior and better grades are linked to early risers. When you wake up before the rest of the world, you gain a period of uninterrupted focus. There are no pings from work emails, no social media distractions, and no household noise. This \"golden hour\" allows for deep work or exercise, setting a positive tone for the rest of the day. By the time most people are starting their first cup of coffee, a morning person has already accomplished their most difficult tasks, leading to reduced stress levels as the afternoon approaches.\n\nFurthermore, being a morning person aligns perfectly with the \"social clock.\" The professional world, educational institutions, and government services all operate on a 9-to-5 schedule. Night owls often suffer from \"social jetlag,\" a state where their internal biological clock is at odds with their external obligations. This constant friction leads to chronic sleep deprivation and decreased mental clarity. In contrast, morning people are most alert when the world demands it of them. They do not have to fight their biology to be present at a morning meeting or a 10:00 a.m. lecture.\n\nFinally, there are undeniable health benefits. Early risers tend to have more consistent sleep patterns, which regulates hormones and improves mood. Exposure to early morning sunlight helps stabilize the circadian rhythm and boosts Vitamin D and serotonin levels. This natural regulation makes it easier to maintain a healthy diet and a regular fitness routine, as people are less likely to skip a workout due to the exhaustion that accumulates by the end of a long day. Ultimately, the discipline of a morning routine fosters a sense of control and well-being that late-night habits simply cannot match.",
+  "cleaned_text": "Society often romanticizes the \"night owl\" lifestyle as the hallmark of the creative or the driven, but in reality, being a morning person provides a significant advantage in terms of health, productivity, and social alignment. While staying up late might feel like reclaiming personal time, waking up early allows an individual to operate in harmony with the natural world and the structures of modern life.\n\nThe primary benefit of being a morning person is the boost in cognitive performance and productivity. Studies consistently show that proactive behavior and better grades are linked to early risers. When you wake up before the rest of the world, you gain a period of uninterrupted focus. There are no pings from work emails, no social media distractions, and no household noise. This \"golden hour\" allows for deep work or exercise, setting a positive tone for the rest of the day. By the time most people are starting their first cup of coffee, a morning person has already accomplished their most difficult tasks, leading to reduced stress levels as the afternoon approaches.\n\nFurthermore, being a morning person aligns perfectly with the \"social clock.\" The professional world, educational institutions, and government services all operate on a 9-to-5 schedule. Night owls often suffer from \"social jetlag,\" a state where their internal biological clock is at odds with their external obligations. This constant friction leads to chronic sleep deprivation and decreased mental clarity. In contrast, morning people are most alert when the world demands it of them. They do not have to fight their biology to be present at a morning meeting or a 10:00 a.m. lecture.\n\nFinally, there are undeniable health benefits. Early risers tend to have more consistent sleep patterns, which regulates hormones and improves mood. Exposure to early morning sunlight helps stabilize the circadian rhythm and boosts Vitamin D and serotonin levels. This natural regulation makes it easier to maintain a healthy diet and a regular fitness routine, as people are less likely to skip a workout due to the exhaustion that accumulates by the end of a long day. Ultimately, the discipline of a morning routine fosters a sense of control and well-being that late-night habits simply cannot match.",
+  "word_count": 367,
+  "api_parameters": {
+    "maxOutputTokens": 900,
+    "thinkingLevel": "MINIMAL"
+  },
+  "response_metadata": {
+    "usageMetadata": {
+      "promptTokenCount": 193,
+      "candidatesTokenCount": 435,
+      "totalTokenCount": 628,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 193
+        }
+      ]
+    },
+    "modelVersion": "gemini-3-flash-preview"
+  }
+}

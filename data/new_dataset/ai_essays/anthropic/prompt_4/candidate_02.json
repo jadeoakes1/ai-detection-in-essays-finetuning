@@ -1,0 +1,31 @@
+{
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-6",
+  "prompt_id": "prompt_4",
+  "candidate_index": 2,
+  "timestamp_utc": "2026-04-21T00:56:38Z",
+  "prompt_text": "Write a short essay (300-400 words) responding to the prompt below.\nTake the position provided and support it with clear reasoning and examples.\nTraveling spontaneously is better than planning a trip in detail. Argue for why this is preferable.",
+  "system_prompt": "You are writing a college student argumentative essay.\n\nFollow these rules exactly:\n- Write a natural-sounding student essay in English.\n- Length: 300 to 400 words.\n- Respond directly to the assigned prompt and defend the stated position.\n- Use clear reasoning and concrete examples.\n- Use normal paragraph form.\n- Do not use bullet points, headings, or numbered lists.\n- Do not mention being an AI, language model, assistant, or chatbot.\n- Do not include disclaimers, notes, or any text outside the essay itself.\n",
+  "raw_text": "Traveling spontaneously is one of the most rewarding ways to experience the world, and while detailed planning might seem like the safer choice, it often robs travelers of the very experiences that make a trip memorable. Spontaneous travel encourages flexibility, genuine discovery, and a deeper connection with the places and people encountered along the way.\n\nOne of the strongest arguments for spontaneous travel is that it opens the door to unexpected opportunities. When a trip is rigidly planned, every hour is accounted for, leaving no room for detours or surprises. A traveler in Italy who stumbles upon a local festival in a small town, for example, would miss that experience entirely if their schedule demanded they be somewhere else. Spontaneous travelers follow their instincts and curiosity, which frequently leads them to the most authentic and unforgettable moments a destination has to offer.\n\nSpontaneous travel also reduces the stress that often accompanies excessive planning. Spending weeks researching every hotel, restaurant, and attraction can make a trip feel like a homework assignment rather than an adventure. When things inevitably go wrong, as they always do with travel, over-planners often feel frustrated and disappointed because reality has deviated from their carefully constructed itinerary. A spontaneous traveler, on the other hand, adapts naturally to change and tends to approach setbacks as part of the adventure rather than as failures.\n\nFurthermore, traveling without a rigid plan encourages personal growth and self-reliance. Navigating an unfamiliar city without a pre-booked schedule forces travelers to problem-solve, communicate with locals, and trust their own judgment. These experiences build confidence in ways that following a detailed itinerary simply cannot. Many experienced travelers look back on their most unplanned trips as the ones that taught them the most about themselves and the world.\n\nOf course, some basic preparation is reasonable, such as having a valid passport and a general sense of destination. But beyond the essentials, leaving room for the unexpected is what transforms a vacation into a genuine adventure. Spontaneous travel is not reckless; it is a conscious choice to embrace possibility over predictability, and that choice almost always leads to richer, more meaningful experiences.",
+  "cleaned_text": "Traveling spontaneously is one of the most rewarding ways to experience the world, and while detailed planning might seem like the safer choice, it often robs travelers of the very experiences that make a trip memorable. Spontaneous travel encourages flexibility, genuine discovery, and a deeper connection with the places and people encountered along the way.\n\nOne of the strongest arguments for spontaneous travel is that it opens the door to unexpected opportunities. When a trip is rigidly planned, every hour is accounted for, leaving no room for detours or surprises. A traveler in Italy who stumbles upon a local festival in a small town, for example, would miss that experience entirely if their schedule demanded they be somewhere else. Spontaneous travelers follow their instincts and curiosity, which frequently leads them to the most authentic and unforgettable moments a destination has to offer.\n\nSpontaneous travel also reduces the stress that often accompanies excessive planning. Spending weeks researching every hotel, restaurant, and attraction can make a trip feel like a homework assignment rather than an adventure. When things inevitably go wrong, as they always do with travel, over-planners often feel frustrated and disappointed because reality has deviated from their carefully constructed itinerary. A spontaneous traveler, on the other hand, adapts naturally to change and tends to approach setbacks as part of the adventure rather than as failures.\n\nFurthermore, traveling without a rigid plan encourages personal growth and self-reliance. Navigating an unfamiliar city without a pre-booked schedule forces travelers to problem-solve, communicate with locals, and trust their own judgment. These experiences build confidence in ways that following a detailed itinerary simply cannot. Many experienced travelers look back on their most unplanned trips as the ones that taught them the most about themselves and the world.\n\nOf course, some basic preparation is reasonable, such as having a valid passport and a general sense of destination. But beyond the essentials, leaving room for the unexpected is what transforms a vacation into a genuine adventure. Spontaneous travel is not reckless; it is a conscious choice to embrace possibility over predictability, and that choice almost always leads to richer, more meaningful experiences.",
+  "word_count": 355,
+  "api_parameters": {
+    "max_tokens": 900
+  },
+  "response_metadata": {
+    "id": "msg_01WUWyHi5Q1SWQUoSMPPfce2",
+    "usage": {
+      "input_tokens": 202,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 467,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    },
+    "stop_reason": "end_turn"
+  }
+}

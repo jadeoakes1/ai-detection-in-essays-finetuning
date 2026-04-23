@@ -1,0 +1,16 @@
+{
+  "providers_requested": [
+    "openai",
+    "anthropic",
+    "gemini"
+  ],
+  "prompts_count": 6,
+  "candidates_per_prompt": 2,
+  "failures": [],
+  "finished_at_utc": "2026-04-21T00:58:28Z",
+  "models": {
+    "openai": "gpt-5.4",
+    "anthropic": "claude-sonnet-4-6",
+    "gemini": "gemini-3-flash-preview"
+  }
+}

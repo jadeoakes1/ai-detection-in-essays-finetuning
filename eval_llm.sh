@@ -14,12 +14,6 @@ mkdir -p results/llm
 source .venv312/bin/activate
 source .env_llm
 
-# Gemini / Vertex setup
-export GOOGLE_APPLICATION_CREDENTIALS="/home/jadeoakes/capstone/gemini_key.json"
-export GOOGLE_CLOUD_PROJECT=437056147552
-export GOOGLE_CLOUD_LOCATION=us-central1
-export GOOGLE_GENAI_USE_VERTEXAI=True
-
 PROVIDER="$1"
 MODEL_NAME="$2"
 DATA_FILE="$3"
@@ -27,13 +21,26 @@ DEBUG_N=""
 LLAMA_MODE="finetuned"
 LLAMA_BASE_MODEL="meta-llama/Llama-3.1-8B-Instruct"
 
+# Vertex-only setup for tuned Gemini endpoint
+if [ "$PROVIDER" = "gemini_vertex" ]; then
+  export GOOGLE_APPLICATION_CREDENTIALS="/home/jadeoakes/capstone/gemini_key.json"
+  export GOOGLE_CLOUD_PROJECT=437056147552
+  export GOOGLE_CLOUD_LOCATION=us-central1
+  export GOOGLE_GENAI_USE_VERTEXAI=True
+else
+  unset GOOGLE_APPLICATION_CREDENTIALS
+  unset GOOGLE_CLOUD_PROJECT
+  unset GOOGLE_CLOUD_LOCATION
+  unset GOOGLE_GENAI_USE_VERTEXAI
+fi
+
 # If $4 is a number → it's DEBUG_N
 if [[ "$4" =~ ^[0-9]+$ ]]; then
   DEBUG_N="$4"
   LLAMA_MODE="${5:-finetuned}"
   LLAMA_BASE_MODEL="${6:-meta-llama/Llama-3.1-8B-Instruct}"
 else
-  # Otherwise, shift arguments (no debug_n provided)
+  # Otherwise, no debug_n provided
   LLAMA_MODE="${4:-finetuned}"
   LLAMA_BASE_MODEL="${5:-meta-llama/Llama-3.1-8B-Instruct}"
 fi
@@ -43,6 +50,8 @@ if [ -z "$PROVIDER" ] || [ -z "$MODEL_NAME" ] || [ -z "$DATA_FILE" ]; then
   echo "Example: sbatch eval_llm.sh openai gpt-5.4-mini data/splits/source_holdout/test.csv 10"
   echo "Example: sbatch eval_llm.sh llama models/llama31_8b_clean_2000_lora data/splits/balanced/test.csv 50 finetuned meta-llama/Llama-3.1-8B-Instruct"
   echo "Example: sbatch eval_llm.sh llama meta-llama/Llama-3.1-8B-Instruct data/splits/balanced/test.csv 50 zeroshot meta-llama/Llama-3.1-8B-Instruct"
+  echo "Example: sbatch eval_llm.sh gemini gemini-2.5-flash data/splits/balanced/test.csv 3"
+  echo "Example: sbatch eval_llm.sh gemini_vertex projects/437056147552/locations/us-central1/endpoints/1791641553077272576 data/splits/balanced/test.csv 3"
   exit 1
 fi
 

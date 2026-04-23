@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-# scripts/eval_llm_zeroshot.py
+# scripts/eval_llm.py
+# NEW
 
 import os
 import re
@@ -30,11 +31,7 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 GEMINI_CLIENT = genai.Client(api_key=GEMINI_API_KEY) if GEMINI_API_KEY else None
 
 # Explicit Vertex client for tuned Gemini endpoint
-GEMINI_VERTEX_CLIENT = genai.Client(
-    vertexai=True,
-    project=os.environ.get("GOOGLE_CLOUD_PROJECT"),
-    location=os.environ.get("GOOGLE_CLOUD_LOCATION", "us-central1"),
-)
+GEMINI_VERTEX_CLIENT = None
 
 LLAMA_MODEL_CACHE = {}
 
@@ -223,9 +220,15 @@ def call_gemini_model(prompt: str, model_name: str, temperature: float = 0.0, ma
 
 
 def call_gemini_vertex_model(prompt: str, model_name: str, temperature: float = 0.0, max_tokens: int = 16) -> str:
+    global GEMINI_VERTEX_CLIENT
+
     if GEMINI_VERTEX_CLIENT is None:
-        raise ValueError("Gemini Vertex client not initialized")
-    
+        GEMINI_VERTEX_CLIENT = genai.Client(
+            vertexai=True,
+            project=os.environ.get("GOOGLE_CLOUD_PROJECT"),
+            location=os.environ.get("GOOGLE_CLOUD_LOCATION", "us-central1"),
+        )
+
     response = GEMINI_VERTEX_CLIENT.models.generate_content(
         model=model_name,
         contents=prompt,
@@ -601,8 +604,8 @@ def main():
     else:
         acc = None
         report = "N/A (0 resolved predictions)"
-        cm = confusion_matrix([], [], labels=[0, 1])
-
+        cm = [[0, 0], [0, 0]]
+    
     true_counts = pd.Series(true_labels).value_counts().sort_index()
     pred_counts = pd.Series(scored_preds).value_counts().sort_index()
     unresolved_pred = len(preds) - len(scored_preds)
@@ -621,7 +624,10 @@ def main():
     print(f"Pred counts: Human={human_pred}, AI={ai_pred}, Unresolved={unresolved_pred}")
     print(f"\nMajority-class baseline accuracy: {majority_acc:.4f}")
 
-    print_confusion_details(cm)
+    if len(scored_preds) > 0:
+        print_confusion_details(cm)
+    else:
+        print("\nConfusion matrix: N/A (no resolved predictions)")
 
     if acc is not None:
         print(f"\nAccuracy: {acc:.4f}")
@@ -691,7 +697,7 @@ def main():
         "true_counts": {"Human": human_true, "AI": ai_true},
         "pred_counts": {"Human": human_pred, "AI": ai_pred, "Unresolved": unresolved_pred},
         "resolved_predictions": len(scored_preds),
-        "confusion_matrix": cm.tolist(),
+        "confusion_matrix": cm.tolist() if hasattr(cm, "tolist") else cm,
         "classification_report_text": report,
         "llama_mode": args.llama_mode if args.provider == "llama" else None,
         "llama_base_model": args.llama_base_model if args.provider == "llama" else None,

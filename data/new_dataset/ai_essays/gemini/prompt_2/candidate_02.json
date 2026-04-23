@@ -1,0 +1,30 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "prompt_id": "prompt_2",
+  "candidate_index": 2,
+  "timestamp_utc": "2026-04-21T00:57:47Z",
+  "prompt_text": "Write a short essay (300-400 words) responding to the prompt below.\nTake the position provided and support it with clear reasoning and examples.\nReading books in print is better than reading digitally. Argue for why this is preferable.",
+  "system_prompt": "You are writing a college student argumentative essay.\n\nFollow these rules exactly:\n- Write a natural-sounding student essay in English.\n- Length: 300 to 400 words.\n- Respond directly to the assigned prompt and defend the stated position.\n- Use clear reasoning and concrete examples.\n- Use normal paragraph form.\n- Do not use bullet points, headings, or numbered lists.\n- Do not mention being an AI, language model, assistant, or chatbot.\n- Do not include disclaimers, notes, or any text outside the essay itself.\n",
+  "raw_text": "Despite the convenience of storing an entire library on a single tablet, the physical experience of reading a printed book remains superior to digital alternatives. While e-readers and smartphones offer portability, they lack the tactile engagement, cognitive benefits, and freedom from distraction that traditional paper provides. For a meaningful reading experience, print is the far better medium.\n\nOne of the primary advantages of print is the reduction of digital eye strain and \"screen fatigue.\" Most students and professionals already spend the majority of their day staring at monitors for work or communication. Transitioning to a digital book during leisure time only exacerbates headaches and blurred vision caused by blue light. In contrast, paper reflects natural light, making it easier on the eyes during long reading sessions. Furthermore, the tactile nature of turning pages provides a spatial map for the brain. Research suggests that readers retain information better when using print because they can mentally ground specific passages to a physical location on a page, a sensation that is lost in the infinite scroll of a digital file.\n\nAdditionally, print books offer a sanctuary from the constant notifications of the modern world. When reading on a tablet or phone, a reader is only one swipe away from an email, a social media alert, or a news headline. These interruptions shatter the \"deep work\" state required to truly immerse oneself in a narrative or a complex argument. A physical book requires no battery, has no pop-up ads, and demands a singular focus that fosters a deeper emotional and intellectual connection to the text.\n\nFinally, there is a cultural and personal value to physical books that technology cannot replicate. A personal library serves as a history of one’s intellectual journey; a bookshelf is a collection of memories and physical artifacts that can be shared or passed down. Digital files are often tethered to proprietary software and can disappear if a platform changes its terms. By choosing print, readers ensure they truly own their literature while enjoying a healthier, more focused, and more permanent relationship with the written word.",
+  "cleaned_text": "Despite the convenience of storing an entire library on a single tablet, the physical experience of reading a printed book remains superior to digital alternatives. While e-readers and smartphones offer portability, they lack the tactile engagement, cognitive benefits, and freedom from distraction that traditional paper provides. For a meaningful reading experience, print is the far better medium.\n\nOne of the primary advantages of print is the reduction of digital eye strain and \"screen fatigue.\" Most students and professionals already spend the majority of their day staring at monitors for work or communication. Transitioning to a digital book during leisure time only exacerbates headaches and blurred vision caused by blue light. In contrast, paper reflects natural light, making it easier on the eyes during long reading sessions. Furthermore, the tactile nature of turning pages provides a spatial map for the brain. Research suggests that readers retain information better when using print because they can mentally ground specific passages to a physical location on a page, a sensation that is lost in the infinite scroll of a digital file.\n\nAdditionally, print books offer a sanctuary from the constant notifications of the modern world. When reading on a tablet or phone, a reader is only one swipe away from an email, a social media alert, or a news headline. These interruptions shatter the \"deep work\" state required to truly immerse oneself in a narrative or a complex argument. A physical book requires no battery, has no pop-up ads, and demands a singular focus that fosters a deeper emotional and intellectual connection to the text.\n\nFinally, there is a cultural and personal value to physical books that technology cannot replicate. A personal library serves as a history of one’s intellectual journey; a bookshelf is a collection of memories and physical artifacts that can be shared or passed down. Digital files are often tethered to proprietary software and can disappear if a platform changes its terms. By choosing print, readers ensure they truly own their literature while enjoying a healthier, more focused, and more permanent relationship with the written word.",
+  "word_count": 346,
+  "api_parameters": {
+    "maxOutputTokens": 900,
+    "thinkingLevel": "MINIMAL"
+  },
+  "response_metadata": {
+    "usageMetadata": {
+      "promptTokenCount": 191,
+      "candidatesTokenCount": 397,
+      "totalTokenCount": 588,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 191
+        }
+      ]
+    },
+    "modelVersion": "gemini-3-flash-preview"
+  }
+}

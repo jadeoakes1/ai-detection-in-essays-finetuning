@@ -1,0 +1,30 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "prompt_id": "prompt_5",
+  "candidate_index": 1,
+  "timestamp_utc": "2026-04-21T00:58:11Z",
+  "prompt_text": "Write a short essay (300-400 words) responding to the prompt below.\nTake the position provided and support it with clear reasoning and examples.\nBeing a morning person is better than being a night owl. Argue for why this is preferable.",
+  "system_prompt": "You are writing a college student argumentative essay.\n\nFollow these rules exactly:\n- Write a natural-sounding student essay in English.\n- Length: 300 to 400 words.\n- Respond directly to the assigned prompt and defend the stated position.\n- Use clear reasoning and concrete examples.\n- Use normal paragraph form.\n- Do not use bullet points, headings, or numbered lists.\n- Do not mention being an AI, language model, assistant, or chatbot.\n- Do not include disclaimers, notes, or any text outside the essay itself.\n",
+  "raw_text": "While society often frames chronotypes as a matter of personal preference, being a morning person offers distinct advantages that align with the structural and biological demands of the modern world. Adopting an early schedule is not just about productivity; it is about synchronizing one’s internal clock with the natural environment and professional expectations, leading to better mental health and overall efficiency.\n\nThe most practical benefit of being a morning person is the alignment with standard societal operations. Most professional, educational, and governmental institutions operate on a 9-to-5 schedule. Those who wake up early are able to start their day with a sense of proactive control rather than reactive stress. For example, an early riser has time to exercise, eat a balanced breakfast, and organize their tasks before the barrage of emails and meetings begins. In contrast, night owls often find themselves rushing to meet early deadlines, starting their workday in a state of sleep deprivation or \"social jetlag,\" which can impair cognitive function and mood.\n\nFurthermore, being a morning person leverages the psychological phenomenon of willpower. Research suggests that self-control is a finite resource that depletes throughout the day. By tackling the most difficult or creative tasks in the early hours, morning people utilize their peak mental energy before the distractions of the afternoon set in. A student who studies at 7:00 AM is likely more focused and less prone to the lure of social media or late-night social gatherings than one trying to cram at midnight.\n\nFinally, there is a significant biological advantage to rising with the sun. Exposure to natural morning light helps regulate the circadian rhythm, which is linked to better sleep quality and lower rates of depression. Night owls are more likely to rely on artificial light and caffeine to stay awake, which can disrupt long-term health. By embracing the morning, individuals foster a lifestyle that is physically healthier and psychologically more stable. Ultimately, while night owls may claim the quiet of the late hours, morning people gain the clarity, health, and structural advantages necessary to thrive in a world that begins at dawn.",
+  "cleaned_text": "While society often frames chronotypes as a matter of personal preference, being a morning person offers distinct advantages that align with the structural and biological demands of the modern world. Adopting an early schedule is not just about productivity; it is about synchronizing one’s internal clock with the natural environment and professional expectations, leading to better mental health and overall efficiency.\n\nThe most practical benefit of being a morning person is the alignment with standard societal operations. Most professional, educational, and governmental institutions operate on a 9-to-5 schedule. Those who wake up early are able to start their day with a sense of proactive control rather than reactive stress. For example, an early riser has time to exercise, eat a balanced breakfast, and organize their tasks before the barrage of emails and meetings begins. In contrast, night owls often find themselves rushing to meet early deadlines, starting their workday in a state of sleep deprivation or \"social jetlag,\" which can impair cognitive function and mood.\n\nFurthermore, being a morning person leverages the psychological phenomenon of willpower. Research suggests that self-control is a finite resource that depletes throughout the day. By tackling the most difficult or creative tasks in the early hours, morning people utilize their peak mental energy before the distractions of the afternoon set in. A student who studies at 7:00 AM is likely more focused and less prone to the lure of social media or late-night social gatherings than one trying to cram at midnight.\n\nFinally, there is a significant biological advantage to rising with the sun. Exposure to natural morning light helps regulate the circadian rhythm, which is linked to better sleep quality and lower rates of depression. Night owls are more likely to rely on artificial light and caffeine to stay awake, which can disrupt long-term health. By embracing the morning, individuals foster a lifestyle that is physically healthier and psychologically more stable. Ultimately, while night owls may claim the quiet of the late hours, morning people gain the clarity, health, and structural advantages necessary to thrive in a world that begins at dawn.",
+  "word_count": 350,
+  "api_parameters": {
+    "maxOutputTokens": 900,
+    "thinkingLevel": "MINIMAL"
+  },
+  "response_metadata": {
+    "usageMetadata": {
+      "promptTokenCount": 193,
+      "candidatesTokenCount": 411,
+      "totalTokenCount": 604,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 193
+        }
+      ]
+    },
+    "modelVersion": "gemini-3-flash-preview"
+  }
+}

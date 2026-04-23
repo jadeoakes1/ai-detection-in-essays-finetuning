@@ -1,0 +1,31 @@
+{
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-6",
+  "prompt_id": "prompt_5",
+  "candidate_index": 1,
+  "timestamp_utc": "2026-04-21T00:56:51Z",
+  "prompt_text": "Write a short essay (300-400 words) responding to the prompt below.\nTake the position provided and support it with clear reasoning and examples.\nBeing a morning person is better than being a night owl. Argue for why this is preferable.",
+  "system_prompt": "You are writing a college student argumentative essay.\n\nFollow these rules exactly:\n- Write a natural-sounding student essay in English.\n- Length: 300 to 400 words.\n- Respond directly to the assigned prompt and defend the stated position.\n- Use clear reasoning and concrete examples.\n- Use normal paragraph form.\n- Do not use bullet points, headings, or numbered lists.\n- Do not mention being an AI, language model, assistant, or chatbot.\n- Do not include disclaimers, notes, or any text outside the essay itself.\n",
+  "raw_text": "# Being a Morning Person Is the Better Way to Live\n\nThere is an ongoing debate about whether it is better to be a morning person or a night owl, and while both lifestyles have their defenders, rising early is clearly the more beneficial approach. Morning people consistently enjoy advantages in productivity, health, and social alignment that night owls simply cannot match.\n\nOne of the strongest arguments for being a morning person is the productivity boost that comes with starting the day early. The early morning hours are typically free from distractions. There are no phone notifications flooding in, no social obligations pulling at your attention, and no background noise from a busy world. Students and professionals who wake up early often report completing their most demanding work before others have even had their first cup of coffee. For example, a student who wakes at six in the morning can finish a difficult assignment before class, leaving the rest of the day open for other responsibilities rather than scrambling at midnight.\n\nBeyond productivity, the physical health benefits of a morning schedule are well documented. Waking up early tends to align with natural sunlight cycles, which helps regulate the body's circadian rhythm. This alignment improves sleep quality, stabilizes mood, and even supports a stronger immune system. Night owls, by contrast, often find themselves sleeping through daylight hours or staying awake long past when their bodies want to rest, which research has linked to higher risks of depression and metabolic issues.\n\nThere is also the practical matter of fitting into society's structure. The world is built around morning schedules. Schools start early, most jobs begin in the morning, and important appointments are typically scheduled during daytime hours. A night owl constantly fights against this structure, arriving tired to early commitments and feeling perpetually out of sync. Morning people move through these demands with ease because their natural rhythm matches what the world actually requires.\n\nUltimately, being a morning person is not just a personal preference but a genuine advantage. The quiet focus of early hours, the health benefits of a regulated sleep schedule, and the simple ease of functioning within society's timetable all make rising early the smarter and more sustainable way to live.",
+  "cleaned_text": "# Being a Morning Person Is the Better Way to Live\n\nThere is an ongoing debate about whether it is better to be a morning person or a night owl, and while both lifestyles have their defenders, rising early is clearly the more beneficial approach. Morning people consistently enjoy advantages in productivity, health, and social alignment that night owls simply cannot match.\n\nOne of the strongest arguments for being a morning person is the productivity boost that comes with starting the day early. The early morning hours are typically free from distractions. There are no phone notifications flooding in, no social obligations pulling at your attention, and no background noise from a busy world. Students and professionals who wake up early often report completing their most demanding work before others have even had their first cup of coffee. For example, a student who wakes at six in the morning can finish a difficult assignment before class, leaving the rest of the day open for other responsibilities rather than scrambling at midnight.\n\nBeyond productivity, the physical health benefits of a morning schedule are well documented. Waking up early tends to align with natural sunlight cycles, which helps regulate the body's circadian rhythm. This alignment improves sleep quality, stabilizes mood, and even supports a stronger immune system. Night owls, by contrast, often find themselves sleeping through daylight hours or staying awake long past when their bodies want to rest, which research has linked to higher risks of depression and metabolic issues.\n\nThere is also the practical matter of fitting into society's structure. The world is built around morning schedules. Schools start early, most jobs begin in the morning, and important appointments are typically scheduled during daytime hours. A night owl constantly fights against this structure, arriving tired to early commitments and feeling perpetually out of sync. Morning people move through these demands with ease because their natural rhythm matches what the world actually requires.\n\nUltimately, being a morning person is not just a personal preference but a genuine advantage. The quiet focus of early hours, the health benefits of a regulated sleep schedule, and the simple ease of functioning within society's timetable all make rising early the smarter and more sustainable way to live.",
+  "word_count": 371,
+  "api_parameters": {
+    "max_tokens": 900
+  },
+  "response_metadata": {
+    "id": "msg_01Q4h4dW1Nsnn96qZgtXpzBR",
+    "usage": {
+      "input_tokens": 200,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 447,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    },
+    "stop_reason": "end_turn"
+  }
+}

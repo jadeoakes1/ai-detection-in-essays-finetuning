@@ -1,0 +1,31 @@
+{
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-6",
+  "prompt_id": "prompt_5",
+  "candidate_index": 2,
+  "timestamp_utc": "2026-04-21T00:57:03Z",
+  "prompt_text": "Write a short essay (300-400 words) responding to the prompt below.\nTake the position provided and support it with clear reasoning and examples.\nBeing a morning person is better than being a night owl. Argue for why this is preferable.",
+  "system_prompt": "You are writing a college student argumentative essay.\n\nFollow these rules exactly:\n- Write a natural-sounding student essay in English.\n- Length: 300 to 400 words.\n- Respond directly to the assigned prompt and defend the stated position.\n- Use clear reasoning and concrete examples.\n- Use normal paragraph form.\n- Do not use bullet points, headings, or numbered lists.\n- Do not mention being an AI, language model, assistant, or chatbot.\n- Do not include disclaimers, notes, or any text outside the essay itself.\n",
+  "raw_text": "There is an ongoing debate about whether it is better to start your day early or stay up late into the night. While night owls often argue that their late hours fuel creativity and productivity, being a morning person is ultimately the superior lifestyle. Early risers consistently benefit from better mental health, stronger productivity, and a greater alignment with the demands of modern society.\n\nOne of the most compelling reasons to embrace the morning is the psychological advantage it provides. Research has shown that people who wake up early tend to report higher levels of happiness and lower rates of depression compared to those who stay up late. Starting the day with purpose, whether through exercise, a quiet breakfast, or planning, sets a positive tone that carries through the rest of the hours. Morning people are also less likely to feel rushed or reactive because they have already given themselves time to prepare before the world demands their attention.\n\nProductivity is another major factor. The early morning hours are uniquely free from distraction. There are no incoming emails flooding your inbox, no social media notifications pulling your focus, and no one asking for your time. This quiet window allows for deep, focused work that is much harder to achieve late at night when the brain is fatigued. Many of the world's most successful leaders, from Tim Cook to Michelle Obama, have credited early rising as a key part of their disciplined routines.\n\nBeyond individual benefits, being a morning person simply makes practical sense in the context of how society functions. Schools, workplaces, medical appointments, and social events are all largely structured around daytime hours. A night owl constantly fighting against this schedule faces a disadvantage, often arriving tired and unprepared to meetings or classes that begin in the morning. Morning people do not have to fight this current; they swim naturally within it.\n\nWhile there is nothing inherently wrong with staying up late occasionally, building a lifestyle around early rising offers consistent advantages that the night owl schedule simply cannot match. Better mood, sharper focus, and social compatibility make the case clear. Waking up early is not just a habit; it is an investment in a more productive and fulfilling life.",
+  "cleaned_text": "There is an ongoing debate about whether it is better to start your day early or stay up late into the night. While night owls often argue that their late hours fuel creativity and productivity, being a morning person is ultimately the superior lifestyle. Early risers consistently benefit from better mental health, stronger productivity, and a greater alignment with the demands of modern society.\n\nOne of the most compelling reasons to embrace the morning is the psychological advantage it provides. Research has shown that people who wake up early tend to report higher levels of happiness and lower rates of depression compared to those who stay up late. Starting the day with purpose, whether through exercise, a quiet breakfast, or planning, sets a positive tone that carries through the rest of the hours. Morning people are also less likely to feel rushed or reactive because they have already given themselves time to prepare before the world demands their attention.\n\nProductivity is another major factor. The early morning hours are uniquely free from distraction. There are no incoming emails flooding your inbox, no social media notifications pulling your focus, and no one asking for your time. This quiet window allows for deep, focused work that is much harder to achieve late at night when the brain is fatigued. Many of the world's most successful leaders, from Tim Cook to Michelle Obama, have credited early rising as a key part of their disciplined routines.\n\nBeyond individual benefits, being a morning person simply makes practical sense in the context of how society functions. Schools, workplaces, medical appointments, and social events are all largely structured around daytime hours. A night owl constantly fighting against this schedule faces a disadvantage, often arriving tired and unprepared to meetings or classes that begin in the morning. Morning people do not have to fight this current; they swim naturally within it.\n\nWhile there is nothing inherently wrong with staying up late occasionally, building a lifestyle around early rising offers consistent advantages that the night owl schedule simply cannot match. Better mood, sharper focus, and social compatibility make the case clear. Waking up early is not just a habit; it is an investment in a more productive and fulfilling life.",
+  "word_count": 371,
+  "api_parameters": {
+    "max_tokens": 900
+  },
+  "response_metadata": {
+    "id": "msg_01RJCUKyMBgzVop5haTKjAEG",
+    "usage": {
+      "input_tokens": 200,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 440,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    },
+    "stop_reason": "end_turn"
+  }
+}
