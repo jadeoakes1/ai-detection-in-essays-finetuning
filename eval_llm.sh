@@ -23,8 +23,8 @@ LLAMA_BASE_MODEL="meta-llama/Llama-3.1-8B-Instruct"
 
 # Vertex-only setup for tuned Gemini endpoint
 if [ "$PROVIDER" = "gemini_vertex" ]; then
-  export GOOGLE_APPLICATION_CREDENTIALS="/home/jadeoakes/capstone/gemini_key.json"
-  export GOOGLE_CLOUD_PROJECT=437056147552
+  export GOOGLE_APPLICATION_CREDENTIALS="$GEMINI_KEY_PATH"
+  export GOOGLE_CLOUD_PROJECT="$GOOGLE_CLOUD_PROJECT"
   export GOOGLE_CLOUD_LOCATION=us-central1
   export GOOGLE_GENAI_USE_VERTEXAI=True
 else
