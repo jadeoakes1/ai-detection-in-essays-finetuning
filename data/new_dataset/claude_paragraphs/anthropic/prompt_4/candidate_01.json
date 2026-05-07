@@ -1,0 +1,31 @@
+{
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-6",
+  "prompt_id": "prompt_4",
+  "candidate_index": 1,
+  "timestamp_utc": "2026-05-06T13:18:50Z",
+  "prompt_text": "Write a paragraph about what constitutes a healthy lifestyle.",
+  "system_prompt": "You are writing a short paragraph in English.\n\nFollow these rules exactly:\n- Write one natural-sounding paragraph.\n- Length: 90 to 240 words.\n- Respond directly to the assigned prompt.\n- Use normal paragraph form.\n- Do not use bullet points, headings, or numbered lists.\n",
+  "raw_text": "A healthy lifestyle is built on a combination of habits that support both physical and mental well-being. Regular physical activity is one of the most important foundations, as exercise strengthens the heart, improves mood, and helps maintain a healthy weight. Equally important is a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats, while limiting processed foods, excess sugar, and alcohol. Getting adequate sleep each night, typically seven to nine hours for most adults, allows the body to repair itself and the mind to function clearly. Managing stress through practices like meditation, deep breathing, or simply spending time in nature can prevent the long-term damage that chronic stress inflicts on the body. Staying hydrated by drinking enough water throughout the day is another simple yet often overlooked element. Social connection also plays a significant role, as maintaining meaningful relationships has been linked to longer life and better mental health. Avoiding harmful behaviors such as smoking and excessive drinking further protects long-term health. Ultimately, a healthy lifestyle is not about perfection but about making consistent, thoughtful choices that prioritize your overall well-being across all areas of life.",
+  "cleaned_text": "A healthy lifestyle is built on a combination of habits that support both physical and mental well-being. Regular physical activity is one of the most important foundations, as exercise strengthens the heart, improves mood, and helps maintain a healthy weight. Equally important is a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats, while limiting processed foods, excess sugar, and alcohol. Getting adequate sleep each night, typically seven to nine hours for most adults, allows the body to repair itself and the mind to function clearly. Managing stress through practices like meditation, deep breathing, or simply spending time in nature can prevent the long-term damage that chronic stress inflicts on the body. Staying hydrated by drinking enough water throughout the day is another simple yet often overlooked element. Social connection also plays a significant role, as maintaining meaningful relationships has been linked to longer life and better mental health. Avoiding harmful behaviors such as smoking and excessive drinking further protects long-term health. Ultimately, a healthy lifestyle is not about perfection but about making consistent, thoughtful choices that prioritize your overall well-being across all areas of life.",
+  "word_count": 190,
+  "api_parameters": {
+    "max_tokens": 500
+  },
+  "response_metadata": {
+    "id": "msg_017L3iQ4eewzKgNhENX3R2Js",
+    "usage": {
+      "input_tokens": 103,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 242,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    },
+    "stop_reason": "end_turn"
+  }
+}

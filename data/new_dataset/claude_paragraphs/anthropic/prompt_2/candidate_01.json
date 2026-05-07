@@ -1,0 +1,31 @@
+{
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-6",
+  "prompt_id": "prompt_2",
+  "candidate_index": 1,
+  "timestamp_utc": "2026-05-06T13:18:35Z",
+  "prompt_text": "Write a paragraph about bees.",
+  "system_prompt": "You are writing a short paragraph in English.\n\nFollow these rules exactly:\n- Write one natural-sounding paragraph.\n- Length: 90 to 240 words.\n- Respond directly to the assigned prompt.\n- Use normal paragraph form.\n- Do not use bullet points, headings, or numbered lists.\n",
+  "raw_text": "Bees are among the most fascinating and vital creatures on Earth, playing a crucial role in maintaining the health of ecosystems around the world. As pollinators, they transfer pollen from flower to flower, enabling plants to reproduce and produce the fruits, vegetables, and seeds that countless animals and humans depend on for survival. It is estimated that roughly one-third of the food humans consume exists thanks to bee pollination. Honeybees are perhaps the most well-known species, living in highly organized colonies that can contain tens of thousands of individuals, each with a specific role to play. Worker bees gather nectar and pollen, nurse bees care for the young, and the queen bee is responsible for laying eggs to sustain the population. Beyond honeybees, there are thousands of other bee species, including bumblebees, mason bees, and carpenter bees, many of which are solitary rather than social. Unfortunately, bee populations worldwide have been declining due to habitat loss, pesticide use, disease, and climate change, raising serious concerns about food security and biodiversity. Protecting bees through sustainable farming practices, planting pollinator-friendly gardens, and reducing chemical use is essential to preserving both their future and our own.",
+  "cleaned_text": "Bees are among the most fascinating and vital creatures on Earth, playing a crucial role in maintaining the health of ecosystems around the world. As pollinators, they transfer pollen from flower to flower, enabling plants to reproduce and produce the fruits, vegetables, and seeds that countless animals and humans depend on for survival. It is estimated that roughly one-third of the food humans consume exists thanks to bee pollination. Honeybees are perhaps the most well-known species, living in highly organized colonies that can contain tens of thousands of individuals, each with a specific role to play. Worker bees gather nectar and pollen, nurse bees care for the young, and the queen bee is responsible for laying eggs to sustain the population. Beyond honeybees, there are thousands of other bee species, including bumblebees, mason bees, and carpenter bees, many of which are solitary rather than social. Unfortunately, bee populations worldwide have been declining due to habitat loss, pesticide use, disease, and climate change, raising serious concerns about food security and biodiversity. Protecting bees through sustainable farming practices, planting pollinator-friendly gardens, and reducing chemical use is essential to preserving both their future and our own.",
+  "word_count": 193,
+  "api_parameters": {
+    "max_tokens": 500
+  },
+  "response_metadata": {
+    "id": "msg_0137ML5Qug1DhsAJej2RuxGT",
+    "usage": {
+      "input_tokens": 99,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 261,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    },
+    "stop_reason": "end_turn"
+  }
+}

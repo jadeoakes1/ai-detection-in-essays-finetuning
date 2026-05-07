@@ -1,0 +1,31 @@
+{
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-6",
+  "prompt_id": "prompt_6",
+  "candidate_index": 1,
+  "timestamp_utc": "2026-05-06T13:19:07Z",
+  "prompt_text": "Write a paragraph about the movie Ratatouille.",
+  "system_prompt": "You are writing a short paragraph in English.\n\nFollow these rules exactly:\n- Write one natural-sounding paragraph.\n- Length: 90 to 240 words.\n- Respond directly to the assigned prompt.\n- Use normal paragraph form.\n- Do not use bullet points, headings, or numbered lists.\n",
+  "raw_text": "Ratatouille, released by Pixar in 2007, is a charming and imaginative animated film that tells the story of Remy, a rat with an extraordinary sense of taste and smell who dreams of becoming a great chef in Paris. Despite the obvious challenges of being a rodent in a world that considers his kind to be pests, Remy finds an unlikely opportunity when he teams up with Linguini, a clumsy young garbage boy working at the famous Gusteau's restaurant. By hiding beneath Linguini's chef's hat and controlling his movements by pulling his hair, Remy is able to cook incredible dishes that begin to restore the restaurant's fading reputation. The film explores themes of following your passion, breaking free from the expectations others place on you, and the idea that talent can come from the most unexpected places. Food critic Anton Ego serves as a memorable antagonist whose eventual transformation adds real emotional weight to the story. With stunning visuals that make Paris look magical and food that appears genuinely appetizing despite being animated, Ratatouille stands as one of Pixar's most creative and beloved films. The movie's famous line, \"Anyone can cook,\" captures its central message beautifully and continues to resonate with audiences of all ages.",
+  "cleaned_text": "Ratatouille, released by Pixar in 2007, is a charming and imaginative animated film that tells the story of Remy, a rat with an extraordinary sense of taste and smell who dreams of becoming a great chef in Paris. Despite the obvious challenges of being a rodent in a world that considers his kind to be pests, Remy finds an unlikely opportunity when he teams up with Linguini, a clumsy young garbage boy working at the famous Gusteau's restaurant. By hiding beneath Linguini's chef's hat and controlling his movements by pulling his hair, Remy is able to cook incredible dishes that begin to restore the restaurant's fading reputation. The film explores themes of following your passion, breaking free from the expectations others place on you, and the idea that talent can come from the most unexpected places. Food critic Anton Ego serves as a memorable antagonist whose eventual transformation adds real emotional weight to the story. With stunning visuals that make Paris look magical and food that appears genuinely appetizing despite being animated, Ratatouille stands as one of Pixar's most creative and beloved films. The movie's famous line, \"Anyone can cook,\" captures its central message beautifully and continues to resonate with audiences of all ages.",
+  "word_count": 204,
+  "api_parameters": {
+    "max_tokens": 500
+  },
+  "response_metadata": {
+    "id": "msg_01EtMvi6TzkTcyiB8dJgoGbq",
+    "usage": {
+      "input_tokens": 104,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 273,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    },
+    "stop_reason": "end_turn"
+  }
+}

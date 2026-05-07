@@ -1,0 +1,31 @@
+{
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-6",
+  "prompt_id": "prompt_10",
+  "candidate_index": 1,
+  "timestamp_utc": "2026-05-06T13:19:40Z",
+  "prompt_text": "Write a paragraph contemplating whether there is life on Mars. Write with spelling errors as though a kid wrote it.",
+  "system_prompt": "You are writing a short paragraph in English.\n\nFollow these rules exactly:\n- Write one natural-sounding paragraph.\n- Length: 90 to 240 words.\n- Respond directly to the assigned prompt.\n- Use normal paragraph form.\n- Do not use bullet points, headings, or numbered lists.\n",
+  "raw_text": "Mars is so intresting to think about becuase mabye there is somthing living there. I lerned that sciencetists have been looking at Mars for a long time and they fownd some stuff that makes them wunder if tiny little germs or backteria mite live under the ground where its not so cold and dry. The planet looks all red and empty but that dosnt mean nothing is there becuase the erth also looks weird from space probly. I think it woud be so cool if there was even just a tiny bug or plant or somthing alive on Mars becuase then we woudnt be alone in space wich is kind of scarey to think about. Some pepole say the dirt on Mars has chemicals that coud maybe help things grow and there is ice there to wich means water and you need water to be alive my teacher said. I realy hope one day the astrownauts or robots find somthing living there even if its just really really small becuase that woud be the most amazeing discovry ever in the hole history of sience and I woud watch it on the news all day.",
+  "cleaned_text": "Mars is so intresting to think about becuase mabye there is somthing living there. I lerned that sciencetists have been looking at Mars for a long time and they fownd some stuff that makes them wunder if tiny little germs or backteria mite live under the ground where its not so cold and dry. The planet looks all red and empty but that dosnt mean nothing is there becuase the erth also looks weird from space probly. I think it woud be so cool if there was even just a tiny bug or plant or somthing alive on Mars becuase then we woudnt be alone in space wich is kind of scarey to think about. Some pepole say the dirt on Mars has chemicals that coud maybe help things grow and there is ice there to wich means water and you need water to be alive my teacher said. I realy hope one day the astrownauts or robots find somthing living there even if its just really really small becuase that woud be the most amazeing discovry ever in the hole history of sience and I woud watch it on the news all day.",
+  "word_count": 194,
+  "api_parameters": {
+    "max_tokens": 500
+  },
+  "response_metadata": {
+    "id": "msg_017oLPV92hJCXXaL5WzohB2u",
+    "usage": {
+      "input_tokens": 115,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 249,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    },
+    "stop_reason": "end_turn"
+  }
+}

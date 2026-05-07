@@ -1,0 +1,31 @@
+{
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-6",
+  "prompt_id": "prompt_9",
+  "candidate_index": 1,
+  "timestamp_utc": "2026-05-06T13:19:30Z",
+  "prompt_text": "You are a 6th grade student. Write a paragraph acting as though you are angry at your mom. Use language a 6th grade student would use.",
+  "system_prompt": "You are writing a short paragraph in English.\n\nFollow these rules exactly:\n- Write one natural-sounding paragraph.\n- Length: 90 to 240 words.\n- Respond directly to the assigned prompt.\n- Use normal paragraph form.\n- Do not use bullet points, headings, or numbered lists.\n",
+  "raw_text": "Ugh, I cannot believe my mom right now. She is being so unfair! I had plans to go to Tyler's house after school today and she just totally forgot and signed me up for some stupid dentist appointment without even asking me. Like, hello, I have a life! And then when I tried to explain why I was upset, she just said \"we'll reschedule with Tyler\" like it's that easy. Tyler's mom is super busy and we planned this like two weeks ago! And then on top of that, she took my tablet away because I didn't clean my room, but I was literally going to do it after dinner. She never gives me any time to do anything. It's like she thinks I'm still in like second grade or something. I do everything she asks and the one time I forget to clean my room, she goes and takes my tablet like it's no big deal. My friend Jake's mom lets him have way more freedom than this. I just wish she would actually listen to me for once instead of just making all these decisions without even talking to me first. It is so frustrating!",
+  "cleaned_text": "Ugh, I cannot believe my mom right now. She is being so unfair! I had plans to go to Tyler's house after school today and she just totally forgot and signed me up for some stupid dentist appointment without even asking me. Like, hello, I have a life! And then when I tried to explain why I was upset, she just said \"we'll reschedule with Tyler\" like it's that easy. Tyler's mom is super busy and we planned this like two weeks ago! And then on top of that, she took my tablet away because I didn't clean my room, but I was literally going to do it after dinner. She never gives me any time to do anything. It's like she thinks I'm still in like second grade or something. I do everything she asks and the one time I forget to clean my room, she goes and takes my tablet like it's no big deal. My friend Jake's mom lets him have way more freedom than this. I just wish she would actually listen to me for once instead of just making all these decisions without even talking to me first. It is so frustrating!",
+  "word_count": 197,
+  "api_parameters": {
+    "max_tokens": 500
+  },
+  "response_metadata": {
+    "id": "msg_01Kc4XpwKGpcQw7PrQNbkiLw",
+    "usage": {
+      "input_tokens": 125,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 238,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    },
+    "stop_reason": "end_turn"
+  }
+}

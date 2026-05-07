@@ -1,0 +1,31 @@
+{
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-6",
+  "prompt_id": "prompt_1",
+  "candidate_index": 1,
+  "timestamp_utc": "2026-05-06T13:18:28Z",
+  "prompt_text": "Write a paragraph about carrier pigeons.",
+  "system_prompt": "You are writing a short paragraph in English.\n\nFollow these rules exactly:\n- Write one natural-sounding paragraph.\n- Length: 90 to 240 words.\n- Respond directly to the assigned prompt.\n- Use normal paragraph form.\n- Do not use bullet points, headings, or numbered lists.\n",
+  "raw_text": "Carrier pigeons have played a remarkable role in human history, serving as one of the earliest and most reliable forms of long-distance communication. These birds, typically homing pigeons bred for their extraordinary ability to navigate back to their home loft from distant locations, were used extensively in wartime to carry critical messages across enemy lines. During both World War I and World War II, carrier pigeons saved countless lives by delivering information that could not be transmitted by other means. One of the most celebrated examples is Cher Ami, a pigeon that delivered a vital message during World War I despite being shot through the chest, losing a leg, and having a damaged eye. Scientists believe pigeons navigate using a combination of the Earth's magnetic field, the position of the sun, and even familiar landmarks. Their homing instinct is so powerful that they can find their way home from hundreds of miles away with impressive accuracy. Although modern technology has made carrier pigeons obsolete for military and official communication purposes, they are still celebrated today in pigeon racing competitions, where enthusiasts breed and train birds to race over long distances, honoring a tradition that stretches back thousands of years.",
+  "cleaned_text": "Carrier pigeons have played a remarkable role in human history, serving as one of the earliest and most reliable forms of long-distance communication. These birds, typically homing pigeons bred for their extraordinary ability to navigate back to their home loft from distant locations, were used extensively in wartime to carry critical messages across enemy lines. During both World War I and World War II, carrier pigeons saved countless lives by delivering information that could not be transmitted by other means. One of the most celebrated examples is Cher Ami, a pigeon that delivered a vital message during World War I despite being shot through the chest, losing a leg, and having a damaged eye. Scientists believe pigeons navigate using a combination of the Earth's magnetic field, the position of the sun, and even familiar landmarks. Their homing instinct is so powerful that they can find their way home from hundreds of miles away with impressive accuracy. Although modern technology has made carrier pigeons obsolete for military and official communication purposes, they are still celebrated today in pigeon racing competitions, where enthusiasts breed and train birds to race over long distances, honoring a tradition that stretches back thousands of years.",
+  "word_count": 199,
+  "api_parameters": {
+    "max_tokens": 500
+  },
+  "response_metadata": {
+    "id": "msg_01WWPaZVg5A5Fcm9cdA5a7Z2",
+    "usage": {
+      "input_tokens": 100,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 244,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    },
+    "stop_reason": "end_turn"
+  }
+}

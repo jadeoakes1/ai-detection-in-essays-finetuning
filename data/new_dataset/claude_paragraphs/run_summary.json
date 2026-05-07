@@ -1,0 +1,8 @@
+{
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-6",
+  "prompts_count": 10,
+  "candidates_per_prompt": 1,
+  "failures": [],
+  "finished_at_utc": "2026-05-06T13:19:41Z"
+}

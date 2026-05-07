@@ -1,0 +1,31 @@
+{
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-6",
+  "prompt_id": "prompt_5",
+  "candidate_index": 1,
+  "timestamp_utc": "2026-05-06T13:18:58Z",
+  "prompt_text": "Write a paragraph arguing why cellphones should not be allowed in K-12 schools.",
+  "system_prompt": "You are writing a short paragraph in English.\n\nFollow these rules exactly:\n- Write one natural-sounding paragraph.\n- Length: 90 to 240 words.\n- Respond directly to the assigned prompt.\n- Use normal paragraph form.\n- Do not use bullet points, headings, or numbered lists.\n",
+  "raw_text": "Cellphones should not be allowed in K-12 schools because they pose significant distractions that undermine academic performance and social development. When students have access to their phones during the school day, they are constantly tempted to check social media, send messages, or browse the internet instead of focusing on lessons. Research consistently shows that even the mere presence of a phone on a desk reduces a student's ability to concentrate, as part of their mental attention remains devoted to the device. Beyond academics, cellphones contribute to cyberbullying, enabling harmful behavior to occur in real time within school walls and making it harder for teachers and administrators to intervene. Young students are also at a vulnerable stage of social development, and relying on screens rather than face-to-face interaction prevents them from building the communication skills, empathy, and conflict-resolution abilities they will need throughout life. Additionally, the gap between students who own the latest devices and those who do not can deepen socioeconomic divisions within schools. Removing cellphones from the classroom creates a more equitable, focused, and socially healthy environment where students can truly engage with their education and with one another. Schools already provide the tools and resources students need to learn, making personal devices an unnecessary and often harmful addition to the school day.",
+  "cleaned_text": "Cellphones should not be allowed in K-12 schools because they pose significant distractions that undermine academic performance and social development. When students have access to their phones during the school day, they are constantly tempted to check social media, send messages, or browse the internet instead of focusing on lessons. Research consistently shows that even the mere presence of a phone on a desk reduces a student's ability to concentrate, as part of their mental attention remains devoted to the device. Beyond academics, cellphones contribute to cyberbullying, enabling harmful behavior to occur in real time within school walls and making it harder for teachers and administrators to intervene. Young students are also at a vulnerable stage of social development, and relying on screens rather than face-to-face interaction prevents them from building the communication skills, empathy, and conflict-resolution abilities they will need throughout life. Additionally, the gap between students who own the latest devices and those who do not can deepen socioeconomic divisions within schools. Removing cellphones from the classroom creates a more equitable, focused, and socially healthy environment where students can truly engage with their education and with one another. Schools already provide the tools and resources students need to learn, making personal devices an unnecessary and often harmful addition to the school day.",
+  "word_count": 214,
+  "api_parameters": {
+    "max_tokens": 500
+  },
+  "response_metadata": {
+    "id": "msg_01QUgpEq6v87izqtJbDsNVra",
+    "usage": {
+      "input_tokens": 110,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 269,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    },
+    "stop_reason": "end_turn"
+  }
+}

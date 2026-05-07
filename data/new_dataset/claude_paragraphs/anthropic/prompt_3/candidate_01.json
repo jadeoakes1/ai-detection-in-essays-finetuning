@@ -1,0 +1,31 @@
+{
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-6",
+  "prompt_id": "prompt_3",
+  "candidate_index": 1,
+  "timestamp_utc": "2026-05-06T13:18:42Z",
+  "prompt_text": "Write a paragraph about Romance languages.",
+  "system_prompt": "You are writing a short paragraph in English.\n\nFollow these rules exactly:\n- Write one natural-sounding paragraph.\n- Length: 90 to 240 words.\n- Respond directly to the assigned prompt.\n- Use normal paragraph form.\n- Do not use bullet points, headings, or numbered lists.\n",
+  "raw_text": "Romance languages are a fascinating family of languages that evolved from Vulgar Latin, the spoken form of Latin used throughout the Roman Empire. As the empire expanded and eventually fragmented, regional dialects developed independently over centuries, giving rise to distinct languages including Spanish, Portuguese, French, Italian, and Romanian, among others. Today, these languages are spoken by hundreds of millions of people across multiple continents, making them some of the most widely spoken languages in the world. Despite their differences in pronunciation, vocabulary, and grammar, Romance languages share a remarkable number of similarities, which means that speakers of one can often recognize or even partially understand another. For example, the Spanish word for night, \"noche,\" closely resembles the Italian \"notte\" and the Portuguese \"noite,\" all tracing back to the Latin \"nox.\" This shared linguistic heritage has made Romance languages a popular area of academic study, and many language learners find that mastering one makes acquiring another significantly easier. Beyond their practical uses, these languages carry rich literary and cultural traditions, from the poetry of Dante Alighieri in Italian to the novels of Gabriel García Márquez in Spanish, reflecting the deep and enduring legacy of Latin civilization throughout the world.",
+  "cleaned_text": "Romance languages are a fascinating family of languages that evolved from Vulgar Latin, the spoken form of Latin used throughout the Roman Empire. As the empire expanded and eventually fragmented, regional dialects developed independently over centuries, giving rise to distinct languages including Spanish, Portuguese, French, Italian, and Romanian, among others. Today, these languages are spoken by hundreds of millions of people across multiple continents, making them some of the most widely spoken languages in the world. Despite their differences in pronunciation, vocabulary, and grammar, Romance languages share a remarkable number of similarities, which means that speakers of one can often recognize or even partially understand another. For example, the Spanish word for night, \"noche,\" closely resembles the Italian \"notte\" and the Portuguese \"noite,\" all tracing back to the Latin \"nox.\" This shared linguistic heritage has made Romance languages a popular area of academic study, and many language learners find that mastering one makes acquiring another significantly easier. Beyond their practical uses, these languages carry rich literary and cultural traditions, from the poetry of Dante Alighieri in Italian to the novels of Gabriel García Márquez in Spanish, reflecting the deep and enduring legacy of Latin civilization throughout the world.",
+  "word_count": 198,
+  "api_parameters": {
+    "max_tokens": 500
+  },
+  "response_metadata": {
+    "id": "msg_01EtcXFYLpPpibHYoeuf8DQN",
+    "usage": {
+      "input_tokens": 99,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 255,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    },
+    "stop_reason": "end_turn"
+  }
+}
